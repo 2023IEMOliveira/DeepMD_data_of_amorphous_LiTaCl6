@@ -1,0 +1,1342 @@
+2026-02-07 19:50:38.584470: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-02-07 19:50:40.377715: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-02-07 19:50:54.217379: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2026-02-07 19:51:03.905596: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1770465071.824202   22132 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1770465074.037443   22132 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1770465094.088739   22132 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770465094.088892   22132 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770465094.088914   22132 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770465094.088931   22132 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2026-02-07 19:51:36.097858: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+To get the best performance, it is recommended to adjust the number of threads by setting the environment variables OMP_NUM_THREADS, DP_INTRA_OP_PARALLELISM_THREADS, and DP_INTER_OP_PARALLELISM_THREADS. See https://deepmd.rtfd.io/parallelism/ for more information.
+Switch to serial execution due to lack of horovod module.
+[2026-02-07 19:54:31,150] DEEPMD INFO    Calculate neighbor statistics... (add --skip-neighbor-stat to skip this step)
+E0000 00:00:1770465272.186807   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.187284   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.187603   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.187917   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465272.297132   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+E0000 00:00:1770465272.835197   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.835597   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.835870   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.836151   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465272.836421   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+[2026-02-07 19:54:32,836] DEEPMD WARNING You can use the environment variable DP_INFER_BATCH_SIZE tocontrol the inference batch size (nframes * natoms). The default value is 1024.
+E0000 00:00:1770465272.837472   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.837773   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.838037   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465272.838297   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465272.838558   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+E0000 00:00:1770465273.420877   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465273.421309   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465273.421583   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465273.421844   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465273.422107   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1770465273.470639   22132 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+[2026-02-07 19:54:40,380] DEEPMD INFO    Neighbor statistics: training data with minimal neighbor distance: 1.999927
+[2026-02-07 19:54:40,381] DEEPMD INFO    Neighbor statistics: training data with maximum neighbor size: [ 7  6 31] (cutoff radius: 6.000000)
+[2026-02-07 19:54:40,398] DEEPMD INFO     _____               _____   __  __  _____           _     _  _   
+[2026-02-07 19:54:40,398] DEEPMD INFO    |  __ \             |  __ \ |  \/  ||  __ \         | |   (_)| |  
+[2026-02-07 19:54:40,398] DEEPMD INFO    | |  | |  ___   ___ | |__) || \  / || |  | | ______ | | __ _ | |_ 
+[2026-02-07 19:54:40,398] DEEPMD INFO    | |  | | / _ \ / _ \|  ___/ | |\/| || |  | ||______|| |/ /| || __|
+[2026-02-07 19:54:40,398] DEEPMD INFO    | |__| ||  __/|  __/| |     | |  | || |__| |        |   < | || |_ 
+[2026-02-07 19:54:40,398] DEEPMD INFO    |_____/  \___| \___||_|     |_|  |_||_____/         |_|\_\|_| \__|
+[2026-02-07 19:54:40,398] DEEPMD INFO    Please read and cite:
+[2026-02-07 19:54:40,398] DEEPMD INFO    Wang, Zhang, Han and E, Comput.Phys.Comm. 228, 178-184 (2018)
+[2026-02-07 19:54:40,399] DEEPMD INFO    Zeng et al, J. Chem. Phys., 159, 054801 (2023)
+[2026-02-07 19:54:40,399] DEEPMD INFO    Zeng et al, arxiv:2502.19161
+[2026-02-07 19:54:40,399] DEEPMD INFO    See https://deepmd.rtfd.io/credits/ for details.
+[2026-02-07 19:54:40,399] DEEPMD INFO    ------------------------------------------------------------------------------------------------------
+[2026-02-07 19:54:40,399] DEEPMD INFO    installed to:          /public/home/zhsong/micromamba/envs/TensorF/lib/python3.12/site-packages/deepmd
+[2026-02-07 19:54:40,399] DEEPMD INFO    source:                v3.0.3
+[2026-02-07 19:54:40,399] DEEPMD INFO    source branch:         HEAD
+[2026-02-07 19:54:40,399] DEEPMD INFO    source commit:         e7eb16e1
+[2026-02-07 19:54:40,399] DEEPMD INFO    source commit at:      2025-05-23 23:43:28 +0800
+[2026-02-07 19:54:40,399] DEEPMD INFO    use float prec:        double
+[2026-02-07 19:54:40,399] DEEPMD INFO    build variant:         cuda
+[2026-02-07 19:54:40,399] DEEPMD INFO    Backend:               TensorFlow
+[2026-02-07 19:54:40,399] DEEPMD INFO    TF ver:                v2.19.0-rc0-6-ge36baa30292
+[2026-02-07 19:54:40,399] DEEPMD INFO    build with TF ver:     2.19.0
+[2026-02-07 19:54:40,399] DEEPMD INFO    build with TF inc:     /tmp/build-env-85oudwf8/lib/python3.11/site-packages/tensorflow/include/
+[2026-02-07 19:54:40,399] DEEPMD INFO                           /tmp/build-env-85oudwf8/lib/python3.11/site-packages/tensorflow/include/
+[2026-02-07 19:54:40,399] DEEPMD INFO    build with TF lib:     /tmp/build-env-85oudwf8/lib/python3.11/site-packages/tensorflow
+[2026-02-07 19:54:40,399] DEEPMD INFO    running on:            gpund01
+[2026-02-07 19:54:40,399] DEEPMD INFO    computing device:      cpu:0
+[2026-02-07 19:54:40,399] DEEPMD INFO    CUDA_VISIBLE_DEVICES:  0,1,2,3
+[2026-02-07 19:54:40,399] DEEPMD INFO    Count of visible GPUs: 0
+[2026-02-07 19:54:40,399] DEEPMD INFO    num_intra_threads:     0
+[2026-02-07 19:54:40,399] DEEPMD INFO    num_inter_threads:     0
+[2026-02-07 19:54:40,399] DEEPMD INFO    ------------------------------------------------------------------------------------------------------
+E0000 00:00:1770465280.405900   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465280.406464   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465280.406831   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465280.407182   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465280.407553   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+[2026-02-07 19:54:40,569] DEEPMD INFO    ---Summary of DataSystem: training     -----------------------------------------------
+[2026-02-07 19:54:40,569] DEEPMD INFO    found 1 system(s):
+[2026-02-07 19:54:40,569] DEEPMD INFO                                        system  natoms  bch_sz   n_bch       prob  pbc
+[2026-02-07 19:54:40,570] DEEPMD INFO                       ./deepmd_training_data/      24       2    8000  1.000e+00    T
+[2026-02-07 19:54:40,570] DEEPMD INFO    --------------------------------------------------------------------------------------
+[2026-02-07 19:54:40,734] DEEPMD INFO    ---Summary of DataSystem: validation   -----------------------------------------------
+[2026-02-07 19:54:40,734] DEEPMD INFO    found 1 system(s):
+[2026-02-07 19:54:40,734] DEEPMD INFO                                        system  natoms  bch_sz   n_bch       prob  pbc
+[2026-02-07 19:54:40,734] DEEPMD INFO                     ./deepmd_validation_data/      24       2    2000  1.000e+00    T
+[2026-02-07 19:54:40,734] DEEPMD INFO    --------------------------------------------------------------------------------------
+[2026-02-07 19:54:40,734] DEEPMD INFO    training without frame parameter
+[2026-02-07 19:54:40,734] DEEPMD INFO    data stating... (this step may take long time)
+[2026-02-07 19:54:41,523] DEEPMD INFO    built lr
+[2026-02-07 19:54:43,620] DEEPMD INFO    built network
+[2026-02-07 19:54:46,303] DEEPMD INFO    built training
+[2026-02-07 19:54:46,303] DEEPMD WARNING To get the best performance, it is recommended to adjust the number of threads by setting the environment variables OMP_NUM_THREADS, DP_INTRA_OP_PARALLELISM_THREADS, and DP_INTER_OP_PARALLELISM_THREADS. See https://deepmd.rtfd.io/parallelism/ for more information.
+E0000 00:00:1770465286.304457   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465286.304890   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465286.305162   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+E0000 00:00:1770465286.305429   22132 cuda_executor.cc:1228] INTERNAL: CUDA Runtime error: Failed call to cudaGetRuntimeVersion: Error loading CUDA libraries. GPU will not be used.: Error loading CUDA libraries. GPU will not be used.
+W0000 00:00:1770465286.305707   22132 gpu_device.cc:2341] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+[2026-02-07 19:54:46,608] DEEPMD INFO    initialize model from scratch
+[2026-02-07 19:54:47,311] DEEPMD INFO    start training at lr 1.00e-03 (== 1.00e-03), decay_step 5000, decay_rate 0.980995, final lr will be 1.00e-08
+2026-02-07 19:54:47.728315: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.728641: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.728693: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729031: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729078: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729219: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729267: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729449: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729757: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.729803: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730126: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730172: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730308: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730355: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730667: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.730959: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.731004: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.731322: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.731368: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.731502: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.731547: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.733995: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.734041: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.734148: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.734192: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.734295: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.734340: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735123: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735167: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735275: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735320: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735425: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.735468: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736252: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736296: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736400: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736445: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736551: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.736594: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737452: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737491: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737581: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737619: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737708: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.737746: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738415: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738453: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738541: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738581: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738667: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.738703: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739331: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739367: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739449: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739484: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739567: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.739602: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740441: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740479: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740567: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740605: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740690: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.740726: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741351: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741387: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741472: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741508: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741592: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.741628: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742250: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742286: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742372: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742408: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742495: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.742531: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.865966: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866144: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866185: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866310: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866347: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866408: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866444: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.866960: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867082: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867118: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867239: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867275: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867335: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867371: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867504: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867627: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867663: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867789: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867826: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867886: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.867922: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.868891: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.868931: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.868999: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869037: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869100: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869138: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869731: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869768: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869832: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869869: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869932: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.869969: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870499: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870535: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870596: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870631: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870692: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.870728: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.871958: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.871995: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872069: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872108: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872172: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872209: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872847: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872883: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872945: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.872981: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873042: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873079: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873674: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873711: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873772: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873808: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873869: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.873905: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.874919: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.874954: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875014: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875049: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875108: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875145: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875745: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875780: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875839: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875874: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875933: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.875968: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876547: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876582: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876641: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876676: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876736: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:47.876770: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+[2026-02-07 19:54:48,677] DEEPMD INFO    batch       0: trn: rmse = 1.08e+01, rmse_e = 3.33e-01, rmse_f = 3.41e-01, rmse_v = 9.66e-02, lr = 1.00e-03
+[2026-02-07 19:54:48,677] DEEPMD INFO    batch       0: val: rmse = 1.47e+01, rmse_e = 3.49e-01, rmse_f = 4.63e-01, rmse_v = 1.29e-01
+2026-02-07 19:54:49.620868: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.621381: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.621452: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.621887: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.621949: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.622129: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.622189: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.622676: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623053: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623113: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623527: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623587: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623762: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.623822: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.624316: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.624704: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.624764: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.625198: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.625256: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.625430: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.625490: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645115: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645190: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645330: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645392: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645529: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.645589: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647076: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647139: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647274: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647332: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647470: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.647529: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649037: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649097: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649234: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649293: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649432: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.649490: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651395: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651456: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651592: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651650: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651787: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.651848: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653340: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653401: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653537: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653597: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653734: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.653792: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655266: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655326: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655463: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655522: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655661: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.655720: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.657645: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.657704: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.657840: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.657900: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.658037: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.658094: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.659568: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.659627: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.659764: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.659823: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.659957: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.660023: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661498: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661559: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661697: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661758: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661896: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:49.661956: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.388640: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.388956: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.389025: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.389220: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.389280: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.389378: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.389436: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.390715: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.390903: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.390961: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391147: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391207: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391306: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391363: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391580: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391767: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.391826: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.392023: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.392083: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.392180: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.392239: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394589: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394648: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394748: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394805: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394904: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.394961: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396454: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396515: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396610: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396669: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396771: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.396829: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398271: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398329: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398423: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398480: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398573: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.398630: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401087: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401144: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401238: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401296: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401389: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.401444: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.402869: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.402925: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.403018: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.403073: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.403166: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.403221: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.404660: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.404717: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.404811: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.404867: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.404960: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.405015: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407418: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407475: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407567: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407622: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407712: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.407767: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409175: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409232: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409323: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409377: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409468: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.409524: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.410909: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.410966: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.411057: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.411112: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.411203: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+2026-02-07 19:54:50.411257: W tensorflow/core/util/util.cc:163] Not handling type DT_DOUBLE
+[2026-02-07 20:03:34,899] DEEPMD INFO    batch   10000: trn: rmse = 2.28e+00, rmse_e = 1.93e-02, rmse_f = 7.33e-02, rmse_v = 3.58e-02, lr = 9.62e-04
+[2026-02-07 20:03:34,900] DEEPMD INFO    batch   10000: val: rmse = 2.96e+00, rmse_e = 6.44e-03, rmse_f = 9.55e-02, rmse_v = 6.23e-02
+[2026-02-07 20:03:34,900] DEEPMD INFO    batch   10000: total wall time = 527.59 s
+[2026-02-07 20:12:16,607] DEEPMD INFO    batch   20000: trn: rmse = 1.77e+00, rmse_e = 2.36e-02, rmse_f = 5.81e-02, rmse_v = 5.41e-02, lr = 9.26e-04
+[2026-02-07 20:12:16,612] DEEPMD INFO    batch   20000: val: rmse = 1.84e+00, rmse_e = 1.43e-02, rmse_f = 6.04e-02, rmse_v = 4.02e-02
+[2026-02-07 20:12:16,617] DEEPMD INFO    batch   20000: total wall time = 521.72 s
+[2026-02-07 20:20:58,914] DEEPMD INFO    batch   30000: trn: rmse = 2.10e+00, rmse_e = 3.05e-02, rmse_f = 7.03e-02, rmse_v = 6.23e-02, lr = 8.91e-04
+[2026-02-07 20:20:58,918] DEEPMD INFO    batch   30000: val: rmse = 2.04e+00, rmse_e = 2.50e-02, rmse_f = 6.83e-02, rmse_v = 3.94e-02
+[2026-02-07 20:20:58,923] DEEPMD INFO    batch   30000: total wall time = 522.31 s
+[2026-02-07 20:29:40,565] DEEPMD INFO    batch   40000: trn: rmse = 2.61e+00, rmse_e = 1.95e-02, rmse_f = 8.90e-02, rmse_v = 4.71e-02, lr = 8.58e-04
+[2026-02-07 20:29:40,566] DEEPMD INFO    batch   40000: val: rmse = 3.16e+00, rmse_e = 1.70e-02, rmse_f = 1.08e-01, rmse_v = 5.10e-02
+[2026-02-07 20:29:40,566] DEEPMD INFO    batch   40000: total wall time = 521.64 s
+[2026-02-07 20:38:23,926] DEEPMD INFO    batch   50000: trn: rmse = 1.69e+00, rmse_e = 2.12e-02, rmse_f = 5.86e-02, rmse_v = 4.77e-02, lr = 8.25e-04
+[2026-02-07 20:38:23,926] DEEPMD INFO    batch   50000: val: rmse = 1.86e+00, rmse_e = 2.16e-02, rmse_f = 6.47e-02, rmse_v = 5.55e-02
+[2026-02-07 20:38:23,927] DEEPMD INFO    batch   50000: total wall time = 523.36 s
+[2026-02-07 20:47:06,039] DEEPMD INFO    batch   60000: trn: rmse = 1.45e+00, rmse_e = 2.29e-02, rmse_f = 5.15e-02, rmse_v = 4.41e-02, lr = 7.94e-04
+[2026-02-07 20:47:06,040] DEEPMD INFO    batch   60000: val: rmse = 1.60e+00, rmse_e = 1.90e-02, rmse_f = 5.66e-02, rmse_v = 4.46e-02
+[2026-02-07 20:47:06,040] DEEPMD INFO    batch   60000: total wall time = 522.11 s
+[2026-02-07 20:55:47,385] DEEPMD INFO    batch   70000: trn: rmse = 1.56e+00, rmse_e = 7.93e-04, rmse_f = 5.65e-02, rmse_v = 3.07e-02, lr = 7.64e-04
+[2026-02-07 20:55:47,386] DEEPMD INFO    batch   70000: val: rmse = 1.74e+00, rmse_e = 6.55e-03, rmse_f = 6.28e-02, rmse_v = 2.88e-02
+[2026-02-07 20:55:47,386] DEEPMD INFO    batch   70000: total wall time = 521.35 s
+[2026-02-07 21:04:29,007] DEEPMD INFO    batch   80000: trn: rmse = 2.50e+00, rmse_e = 5.23e-03, rmse_f = 9.22e-02, rmse_v = 4.41e-02, lr = 7.36e-04
+[2026-02-07 21:04:29,008] DEEPMD INFO    batch   80000: val: rmse = 3.65e+00, rmse_e = 8.99e-03, rmse_f = 1.34e-01, rmse_v = 5.69e-02
+[2026-02-07 21:04:29,008] DEEPMD INFO    batch   80000: total wall time = 521.62 s
+[2026-02-07 21:13:11,780] DEEPMD INFO    batch   90000: trn: rmse = 1.15e+00, rmse_e = 1.13e-02, rmse_f = 4.32e-02, rmse_v = 3.76e-02, lr = 7.08e-04
+[2026-02-07 21:13:11,780] DEEPMD INFO    batch   90000: val: rmse = 2.02e+00, rmse_e = 9.67e-03, rmse_f = 7.61e-02, rmse_v = 2.88e-02
+[2026-02-07 21:13:11,780] DEEPMD INFO    batch   90000: total wall time = 522.77 s
+[2026-02-07 21:21:53,994] DEEPMD INFO    batch  100000: trn: rmse = 1.18e+00, rmse_e = 1.94e-03, rmse_f = 4.50e-02, rmse_v = 2.55e-02, lr = 6.81e-04
+[2026-02-07 21:21:53,995] DEEPMD INFO    batch  100000: val: rmse = 1.55e+00, rmse_e = 6.33e-03, rmse_f = 5.94e-02, rmse_v = 3.30e-02
+[2026-02-07 21:21:53,995] DEEPMD INFO    batch  100000: total wall time = 522.21 s
+[2026-02-07 21:21:54,803] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-07 21:30:36,767] DEEPMD INFO    batch  110000: trn: rmse = 1.29e+00, rmse_e = 1.62e-02, rmse_f = 5.04e-02, rmse_v = 2.85e-02, lr = 6.56e-04
+[2026-02-07 21:30:36,768] DEEPMD INFO    batch  110000: val: rmse = 1.51e+00, rmse_e = 1.91e-02, rmse_f = 5.87e-02, rmse_v = 3.16e-02
+[2026-02-07 21:30:36,768] DEEPMD INFO    batch  110000: total wall time = 522.77 s
+[2026-02-07 21:39:18,312] DEEPMD INFO    batch  120000: trn: rmse = 1.64e+00, rmse_e = 8.82e-03, rmse_f = 6.51e-02, rmse_v = 4.48e-02, lr = 6.31e-04
+[2026-02-07 21:39:18,313] DEEPMD INFO    batch  120000: val: rmse = 2.06e+00, rmse_e = 1.03e-02, rmse_f = 8.18e-02, rmse_v = 3.35e-02
+[2026-02-07 21:39:18,313] DEEPMD INFO    batch  120000: total wall time = 521.55 s
+[2026-02-07 21:48:00,765] DEEPMD INFO    batch  130000: trn: rmse = 1.49e+00, rmse_e = 9.21e-03, rmse_f = 6.04e-02, rmse_v = 3.42e-02, lr = 6.07e-04
+[2026-02-07 21:48:00,766] DEEPMD INFO    batch  130000: val: rmse = 1.54e+00, rmse_e = 1.03e-02, rmse_f = 6.22e-02, rmse_v = 4.38e-02
+[2026-02-07 21:48:00,766] DEEPMD INFO    batch  130000: total wall time = 522.45 s
+[2026-02-07 21:56:43,786] DEEPMD INFO    batch  140000: trn: rmse = 9.84e-01, rmse_e = 3.34e-03, rmse_f = 4.06e-02, rmse_v = 2.33e-02, lr = 5.84e-04
+[2026-02-07 21:56:43,786] DEEPMD INFO    batch  140000: val: rmse = 1.41e+00, rmse_e = 5.96e-03, rmse_f = 5.84e-02, rmse_v = 2.99e-02
+[2026-02-07 21:56:43,787] DEEPMD INFO    batch  140000: total wall time = 523.02 s
+[2026-02-07 22:05:27,081] DEEPMD INFO    batch  150000: trn: rmse = 1.20e+00, rmse_e = 4.13e-03, rmse_f = 5.06e-02, rmse_v = 2.47e-02, lr = 5.62e-04
+[2026-02-07 22:05:27,082] DEEPMD INFO    batch  150000: val: rmse = 1.45e+00, rmse_e = 5.92e-03, rmse_f = 6.10e-02, rmse_v = 2.75e-02
+[2026-02-07 22:05:27,082] DEEPMD INFO    batch  150000: total wall time = 523.30 s
+[2026-02-07 22:14:09,172] DEEPMD INFO    batch  160000: trn: rmse = 1.41e+00, rmse_e = 8.24e-03, rmse_f = 6.04e-02, rmse_v = 3.10e-02, lr = 5.41e-04
+[2026-02-07 22:14:09,173] DEEPMD INFO    batch  160000: val: rmse = 1.85e+00, rmse_e = 1.12e-02, rmse_f = 7.93e-02, rmse_v = 3.43e-02
+[2026-02-07 22:14:09,173] DEEPMD INFO    batch  160000: total wall time = 522.09 s
+[2026-02-07 22:22:52,145] DEEPMD INFO    batch  170000: trn: rmse = 7.83e-01, rmse_e = 1.42e-03, rmse_f = 3.42e-02, rmse_v = 4.58e-02, lr = 5.21e-04
+[2026-02-07 22:22:52,146] DEEPMD INFO    batch  170000: val: rmse = 1.51e+00, rmse_e = 8.22e-03, rmse_f = 6.61e-02, rmse_v = 3.17e-02
+[2026-02-07 22:22:52,146] DEEPMD INFO    batch  170000: total wall time = 522.97 s
+[2026-02-07 22:31:34,733] DEEPMD INFO    batch  180000: trn: rmse = 9.42e-01, rmse_e = 2.08e-02, rmse_f = 4.16e-02, rmse_v = 5.30e-02, lr = 5.01e-04
+[2026-02-07 22:31:34,734] DEEPMD INFO    batch  180000: val: rmse = 1.45e+00, rmse_e = 1.59e-02, rmse_f = 6.45e-02, rmse_v = 2.51e-02
+[2026-02-07 22:31:34,734] DEEPMD INFO    batch  180000: total wall time = 522.59 s
+[2026-02-07 22:40:17,333] DEEPMD INFO    batch  190000: trn: rmse = 9.04e-01, rmse_e = 8.39e-03, rmse_f = 4.10e-02, rmse_v = 3.56e-02, lr = 4.82e-04
+[2026-02-07 22:40:17,334] DEEPMD INFO    batch  190000: val: rmse = 1.28e+00, rmse_e = 7.28e-03, rmse_f = 5.82e-02, rmse_v = 4.01e-02
+[2026-02-07 22:40:17,334] DEEPMD INFO    batch  190000: total wall time = 522.60 s
+[2026-02-07 22:48:59,582] DEEPMD INFO    batch  200000: trn: rmse = 1.05e+00, rmse_e = 6.53e-03, rmse_f = 4.83e-02, rmse_v = 5.04e-02, lr = 4.64e-04
+[2026-02-07 22:48:59,583] DEEPMD INFO    batch  200000: val: rmse = 1.77e+00, rmse_e = 5.35e-03, rmse_f = 8.19e-02, rmse_v = 3.90e-02
+[2026-02-07 22:48:59,583] DEEPMD INFO    batch  200000: total wall time = 522.25 s
+[2026-02-07 22:49:00,233] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-07 22:57:42,929] DEEPMD INFO    batch  210000: trn: rmse = 7.92e-01, rmse_e = 6.03e-03, rmse_f = 3.74e-02, rmse_v = 2.71e-02, lr = 4.47e-04
+[2026-02-07 22:57:42,930] DEEPMD INFO    batch  210000: val: rmse = 1.14e+00, rmse_e = 8.34e-03, rmse_f = 5.39e-02, rmse_v = 2.82e-02
+[2026-02-07 22:57:42,930] DEEPMD INFO    batch  210000: total wall time = 523.35 s
+[2026-02-07 23:06:25,141] DEEPMD INFO    batch  220000: trn: rmse = 8.05e-01, rmse_e = 3.75e-03, rmse_f = 3.87e-02, rmse_v = 3.08e-02, lr = 4.30e-04
+[2026-02-07 23:06:25,142] DEEPMD INFO    batch  220000: val: rmse = 1.54e+00, rmse_e = 1.58e-02, rmse_f = 7.41e-02, rmse_v = 3.73e-02
+[2026-02-07 23:06:25,142] DEEPMD INFO    batch  220000: total wall time = 522.21 s
+[2026-02-07 23:15:07,328] DEEPMD INFO    batch  230000: trn: rmse = 8.58e-01, rmse_e = 6.06e-03, rmse_f = 4.20e-02, rmse_v = 3.50e-02, lr = 4.14e-04
+[2026-02-07 23:15:07,329] DEEPMD INFO    batch  230000: val: rmse = 1.47e+00, rmse_e = 6.39e-03, rmse_f = 7.21e-02, rmse_v = 3.47e-02
+[2026-02-07 23:15:07,329] DEEPMD INFO    batch  230000: total wall time = 522.19 s
+[2026-02-07 23:23:49,931] DEEPMD INFO    batch  240000: trn: rmse = 1.41e+00, rmse_e = 1.21e-02, rmse_f = 7.04e-02, rmse_v = 4.72e-02, lr = 3.98e-04
+[2026-02-07 23:23:49,932] DEEPMD INFO    batch  240000: val: rmse = 1.36e+00, rmse_e = 9.14e-03, rmse_f = 6.78e-02, rmse_v = 3.96e-02
+[2026-02-07 23:23:49,932] DEEPMD INFO    batch  240000: total wall time = 522.60 s
+[2026-02-07 23:32:33,022] DEEPMD INFO    batch  250000: trn: rmse = 6.28e-01, rmse_e = 1.03e-02, rmse_f = 3.19e-02, rmse_v = 2.61e-02, lr = 3.83e-04
+[2026-02-07 23:32:33,022] DEEPMD INFO    batch  250000: val: rmse = 1.09e+00, rmse_e = 6.56e-03, rmse_f = 5.54e-02, rmse_v = 3.46e-02
+[2026-02-07 23:32:33,023] DEEPMD INFO    batch  250000: total wall time = 523.09 s
+[2026-02-07 23:41:15,741] DEEPMD INFO    batch  260000: trn: rmse = 6.27e-01, rmse_e = 6.46e-03, rmse_f = 3.24e-02, rmse_v = 3.84e-02, lr = 3.69e-04
+[2026-02-07 23:41:15,741] DEEPMD INFO    batch  260000: val: rmse = 1.12e+00, rmse_e = 6.48e-03, rmse_f = 5.79e-02, rmse_v = 3.06e-02
+[2026-02-07 23:41:15,741] DEEPMD INFO    batch  260000: total wall time = 522.72 s
+[2026-02-07 23:49:58,217] DEEPMD INFO    batch  270000: trn: rmse = 6.61e-01, rmse_e = 3.81e-03, rmse_f = 3.49e-02, rmse_v = 2.80e-02, lr = 3.55e-04
+[2026-02-07 23:49:58,218] DEEPMD INFO    batch  270000: val: rmse = 1.01e+00, rmse_e = 5.25e-03, rmse_f = 5.33e-02, rmse_v = 3.37e-02
+[2026-02-07 23:49:58,218] DEEPMD INFO    batch  270000: total wall time = 522.48 s
+[2026-02-07 23:58:40,309] DEEPMD INFO    batch  280000: trn: rmse = 1.18e+00, rmse_e = 6.18e-03, rmse_f = 6.34e-02, rmse_v = 3.46e-02, lr = 3.41e-04
+[2026-02-07 23:58:40,309] DEEPMD INFO    batch  280000: val: rmse = 1.27e+00, rmse_e = 6.20e-03, rmse_f = 6.87e-02, rmse_v = 2.81e-02
+[2026-02-07 23:58:40,310] DEEPMD INFO    batch  280000: total wall time = 522.09 s
+[2026-02-08 00:07:23,744] DEEPMD INFO    batch  290000: trn: rmse = 5.93e-01, rmse_e = 2.14e-03, rmse_f = 3.27e-02, rmse_v = 1.23e-02, lr = 3.29e-04
+[2026-02-08 00:07:23,745] DEEPMD INFO    batch  290000: val: rmse = 9.47e-01, rmse_e = 4.80e-03, rmse_f = 5.20e-02, rmse_v = 3.47e-02
+[2026-02-08 00:07:23,745] DEEPMD INFO    batch  290000: total wall time = 523.44 s
+[2026-02-08 00:16:06,464] DEEPMD INFO    batch  300000: trn: rmse = 6.70e-01, rmse_e = 3.64e-03, rmse_f = 3.75e-02, rmse_v = 3.09e-02, lr = 3.16e-04
+[2026-02-08 00:16:06,465] DEEPMD INFO    batch  300000: val: rmse = 1.04e+00, rmse_e = 4.22e-03, rmse_f = 5.85e-02, rmse_v = 2.93e-02
+[2026-02-08 00:16:06,465] DEEPMD INFO    batch  300000: total wall time = 522.72 s
+[2026-02-08 00:16:07,067] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 00:24:48,172] DEEPMD INFO    batch  310000: trn: rmse = 6.73e-01, rmse_e = 3.54e-03, rmse_f = 3.84e-02, rmse_v = 2.09e-02, lr = 3.04e-04
+[2026-02-08 00:24:48,173] DEEPMD INFO    batch  310000: val: rmse = 9.83e-01, rmse_e = 4.91e-03, rmse_f = 5.62e-02, rmse_v = 2.63e-02
+[2026-02-08 00:24:48,173] DEEPMD INFO    batch  310000: total wall time = 521.71 s
+[2026-02-08 00:33:29,201] DEEPMD INFO    batch  320000: trn: rmse = 2.33e+00, rmse_e = 2.42e-02, rmse_f = 1.36e-01, rmse_v = 3.24e-02, lr = 2.93e-04
+[2026-02-08 00:33:29,201] DEEPMD INFO    batch  320000: val: rmse = 1.02e+00, rmse_e = 5.80e-03, rmse_f = 5.96e-02, rmse_v = 2.93e-02
+[2026-02-08 00:33:29,201] DEEPMD INFO    batch  320000: total wall time = 521.03 s
+[2026-02-08 00:42:11,375] DEEPMD INFO    batch  330000: trn: rmse = 5.67e-01, rmse_e = 4.22e-03, rmse_f = 3.36e-02, rmse_v = 2.51e-02, lr = 2.82e-04
+[2026-02-08 00:42:11,376] DEEPMD INFO    batch  330000: val: rmse = 1.03e+00, rmse_e = 4.80e-03, rmse_f = 6.13e-02, rmse_v = 3.23e-02
+[2026-02-08 00:42:11,376] DEEPMD INFO    batch  330000: total wall time = 522.17 s
+[2026-02-08 00:50:53,258] DEEPMD INFO    batch  340000: trn: rmse = 4.61e-01, rmse_e = 1.18e-03, rmse_f = 2.78e-02, rmse_v = 2.73e-02, lr = 2.71e-04
+[2026-02-08 00:50:53,259] DEEPMD INFO    batch  340000: val: rmse = 1.18e+00, rmse_e = 1.04e-02, rmse_f = 7.14e-02, rmse_v = 3.81e-02
+[2026-02-08 00:50:53,259] DEEPMD INFO    batch  340000: total wall time = 521.88 s
+[2026-02-08 00:59:35,228] DEEPMD INFO    batch  350000: trn: rmse = 6.40e-01, rmse_e = 1.15e-02, rmse_f = 3.92e-02, rmse_v = 2.96e-02, lr = 2.61e-04
+[2026-02-08 00:59:35,228] DEEPMD INFO    batch  350000: val: rmse = 8.26e-01, rmse_e = 8.74e-03, rmse_f = 5.09e-02, rmse_v = 2.35e-02
+[2026-02-08 00:59:35,228] DEEPMD INFO    batch  350000: total wall time = 521.97 s
+[2026-02-08 01:08:16,452] DEEPMD INFO    batch  360000: trn: rmse = 7.80e-01, rmse_e = 4.76e-03, rmse_f = 4.90e-02, rmse_v = 2.50e-02, lr = 2.51e-04
+[2026-02-08 01:08:16,452] DEEPMD INFO    batch  360000: val: rmse = 1.05e+00, rmse_e = 7.23e-03, rmse_f = 6.59e-02, rmse_v = 3.24e-02
+[2026-02-08 01:08:16,452] DEEPMD INFO    batch  360000: total wall time = 521.22 s
+[2026-02-08 01:16:58,573] DEEPMD INFO    batch  370000: trn: rmse = 5.39e-01, rmse_e = 3.02e-03, rmse_f = 3.44e-02, rmse_v = 2.39e-02, lr = 2.42e-04
+[2026-02-08 01:16:58,573] DEEPMD INFO    batch  370000: val: rmse = 1.03e+00, rmse_e = 5.72e-03, rmse_f = 6.61e-02, rmse_v = 3.79e-02
+[2026-02-08 01:16:58,573] DEEPMD INFO    batch  370000: total wall time = 522.12 s
+[2026-02-08 01:25:40,788] DEEPMD INFO    batch  380000: trn: rmse = 5.81e-01, rmse_e = 5.82e-03, rmse_f = 3.77e-02, rmse_v = 3.52e-02, lr = 2.33e-04
+[2026-02-08 01:25:40,789] DEEPMD INFO    batch  380000: val: rmse = 1.08e+00, rmse_e = 1.58e-02, rmse_f = 7.04e-02, rmse_v = 3.32e-02
+[2026-02-08 01:25:40,789] DEEPMD INFO    batch  380000: total wall time = 522.22 s
+[2026-02-08 01:34:22,344] DEEPMD INFO    batch  390000: trn: rmse = 5.14e-01, rmse_e = 5.89e-03, rmse_f = 3.41e-02, rmse_v = 2.47e-02, lr = 2.24e-04
+[2026-02-08 01:34:22,344] DEEPMD INFO    batch  390000: val: rmse = 7.95e-01, rmse_e = 6.39e-03, rmse_f = 5.29e-02, rmse_v = 2.47e-02
+[2026-02-08 01:34:22,344] DEEPMD INFO    batch  390000: total wall time = 521.56 s
+[2026-02-08 01:43:03,767] DEEPMD INFO    batch  400000: trn: rmse = 7.61e-01, rmse_e = 3.73e-03, rmse_f = 5.17e-02, rmse_v = 1.58e-02, lr = 2.15e-04
+[2026-02-08 01:43:03,767] DEEPMD INFO    batch  400000: val: rmse = 1.04e+00, rmse_e = 1.05e-02, rmse_f = 7.07e-02, rmse_v = 2.59e-02
+[2026-02-08 01:43:03,768] DEEPMD INFO    batch  400000: total wall time = 521.42 s
+[2026-02-08 01:43:04,312] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 01:51:47,162] DEEPMD INFO    batch  410000: trn: rmse = 6.05e-01, rmse_e = 5.58e-03, rmse_f = 4.16e-02, rmse_v = 3.34e-02, lr = 2.07e-04
+[2026-02-08 01:51:47,162] DEEPMD INFO    batch  410000: val: rmse = 8.48e-01, rmse_e = 3.67e-03, rmse_f = 5.86e-02, rmse_v = 2.91e-02
+[2026-02-08 01:51:47,163] DEEPMD INFO    batch  410000: total wall time = 523.40 s
+[2026-02-08 02:00:29,739] DEEPMD INFO    batch  420000: trn: rmse = 4.40e-01, rmse_e = 7.19e-03, rmse_f = 3.04e-02, rmse_v = 4.10e-02, lr = 2.00e-04
+[2026-02-08 02:00:29,739] DEEPMD INFO    batch  420000: val: rmse = 6.35e-01, rmse_e = 4.68e-03, rmse_f = 4.46e-02, rmse_v = 3.08e-02
+[2026-02-08 02:00:29,740] DEEPMD INFO    batch  420000: total wall time = 522.58 s
+[2026-02-08 02:09:11,595] DEEPMD INFO    batch  430000: trn: rmse = 4.25e-01, rmse_e = 4.54e-03, rmse_f = 3.03e-02, rmse_v = 2.75e-02, lr = 1.92e-04
+[2026-02-08 02:09:11,595] DEEPMD INFO    batch  430000: val: rmse = 6.28e-01, rmse_e = 5.58e-03, rmse_f = 4.49e-02, rmse_v = 3.21e-02
+[2026-02-08 02:09:11,595] DEEPMD INFO    batch  430000: total wall time = 521.86 s
+[2026-02-08 02:17:53,617] DEEPMD INFO    batch  440000: trn: rmse = 6.25e-01, rmse_e = 4.17e-03, rmse_f = 4.56e-02, rmse_v = 3.04e-02, lr = 1.85e-04
+[2026-02-08 02:17:53,617] DEEPMD INFO    batch  440000: val: rmse = 9.83e-01, rmse_e = 6.59e-03, rmse_f = 7.19e-02, rmse_v = 3.51e-02
+[2026-02-08 02:17:53,618] DEEPMD INFO    batch  440000: total wall time = 522.02 s
+[2026-02-08 02:26:36,839] DEEPMD INFO    batch  450000: trn: rmse = 3.84e-01, rmse_e = 5.91e-03, rmse_f = 2.84e-02, rmse_v = 2.07e-02, lr = 1.78e-04
+[2026-02-08 02:26:36,841] DEEPMD INFO    batch  450000: val: rmse = 8.19e-01, rmse_e = 5.88e-03, rmse_f = 6.10e-02, rmse_v = 3.41e-02
+[2026-02-08 02:26:36,841] DEEPMD INFO    batch  450000: total wall time = 523.22 s
+[2026-02-08 02:35:18,504] DEEPMD INFO    batch  460000: trn: rmse = 3.51e-01, rmse_e = 6.55e-04, rmse_f = 2.62e-02, rmse_v = 3.43e-02, lr = 1.71e-04
+[2026-02-08 02:35:18,505] DEEPMD INFO    batch  460000: val: rmse = 6.22e-01, rmse_e = 4.50e-03, rmse_f = 4.71e-02, rmse_v = 3.02e-02
+[2026-02-08 02:35:18,505] DEEPMD INFO    batch  460000: total wall time = 521.66 s
+[2026-02-08 02:44:00,166] DEEPMD INFO    batch  470000: trn: rmse = 4.66e-01, rmse_e = 2.08e-03, rmse_f = 3.57e-02, rmse_v = 4.06e-02, lr = 1.65e-04
+[2026-02-08 02:44:00,167] DEEPMD INFO    batch  470000: val: rmse = 6.21e-01, rmse_e = 5.18e-03, rmse_f = 4.81e-02, rmse_v = 2.40e-02
+[2026-02-08 02:44:00,168] DEEPMD INFO    batch  470000: total wall time = 521.66 s
+[2026-02-08 02:52:41,457] DEEPMD INFO    batch  480000: trn: rmse = 7.09e-01, rmse_e = 1.44e-02, rmse_f = 5.55e-02, rmse_v = 2.72e-02, lr = 1.58e-04
+[2026-02-08 02:52:41,458] DEEPMD INFO    batch  480000: val: rmse = 8.82e-01, rmse_e = 1.22e-02, rmse_f = 6.94e-02, rmse_v = 3.05e-02
+[2026-02-08 02:52:41,458] DEEPMD INFO    batch  480000: total wall time = 521.29 s
+[2026-02-08 03:01:23,598] DEEPMD INFO    batch  490000: trn: rmse = 3.57e-01, rmse_e = 2.17e-03, rmse_f = 2.87e-02, rmse_v = 1.56e-02, lr = 1.53e-04
+[2026-02-08 03:01:23,598] DEEPMD INFO    batch  490000: val: rmse = 8.65e-01, rmse_e = 4.34e-03, rmse_f = 6.96e-02, rmse_v = 3.24e-02
+[2026-02-08 03:01:23,598] DEEPMD INFO    batch  490000: total wall time = 522.14 s
+[2026-02-08 03:10:04,351] DEEPMD INFO    batch  500000: trn: rmse = 3.69e-01, rmse_e = 3.67e-03, rmse_f = 3.02e-02, rmse_v = 1.72e-02, lr = 1.47e-04
+[2026-02-08 03:10:04,352] DEEPMD INFO    batch  500000: val: rmse = 5.72e-01, rmse_e = 3.63e-03, rmse_f = 4.67e-02, rmse_v = 2.76e-02
+[2026-02-08 03:10:04,352] DEEPMD INFO    batch  500000: total wall time = 520.75 s
+[2026-02-08 03:10:04,733] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 03:18:46,347] DEEPMD INFO    batch  510000: trn: rmse = 3.25e-01, rmse_e = 9.02e-03, rmse_f = 2.55e-02, rmse_v = 4.74e-02, lr = 1.41e-04
+[2026-02-08 03:18:46,347] DEEPMD INFO    batch  510000: val: rmse = 4.80e-01, rmse_e = 3.57e-03, rmse_f = 3.99e-02, rmse_v = 2.92e-02
+[2026-02-08 03:18:46,348] DEEPMD INFO    batch  510000: total wall time = 522.00 s
+[2026-02-08 03:27:27,267] DEEPMD INFO    batch  520000: trn: rmse = 6.14e-01, rmse_e = 2.37e-03, rmse_f = 5.21e-02, rmse_v = 3.14e-02, lr = 1.36e-04
+[2026-02-08 03:27:27,268] DEEPMD INFO    batch  520000: val: rmse = 8.59e-01, rmse_e = 4.19e-03, rmse_f = 7.32e-02, rmse_v = 3.24e-02
+[2026-02-08 03:27:27,268] DEEPMD INFO    batch  520000: total wall time = 520.92 s
+[2026-02-08 03:36:09,263] DEEPMD INFO    batch  530000: trn: rmse = 3.19e-01, rmse_e = 2.29e-04, rmse_f = 2.75e-02, rmse_v = 2.20e-02, lr = 1.31e-04
+[2026-02-08 03:36:09,263] DEEPMD INFO    batch  530000: val: rmse = 5.96e-01, rmse_e = 3.37e-03, rmse_f = 5.15e-02, rmse_v = 3.24e-02
+[2026-02-08 03:36:09,264] DEEPMD INFO    batch  530000: total wall time = 522.00 s
+[2026-02-08 03:44:50,460] DEEPMD INFO    batch  540000: trn: rmse = 3.49e-01, rmse_e = 1.96e-03, rmse_f = 3.08e-02, rmse_v = 2.06e-02, lr = 1.26e-04
+[2026-02-08 03:44:50,460] DEEPMD INFO    batch  540000: val: rmse = 6.53e-01, rmse_e = 1.83e-03, rmse_f = 5.78e-02, rmse_v = 2.44e-02
+[2026-02-08 03:44:50,460] DEEPMD INFO    batch  540000: total wall time = 521.20 s
+[2026-02-08 03:53:30,809] DEEPMD INFO    batch  550000: trn: rmse = 3.66e-01, rmse_e = 5.66e-04, rmse_f = 3.29e-02, rmse_v = 2.30e-02, lr = 1.21e-04
+[2026-02-08 03:53:30,810] DEEPMD INFO    batch  550000: val: rmse = 6.90e-01, rmse_e = 5.70e-03, rmse_f = 6.20e-02, rmse_v = 3.22e-02
+[2026-02-08 03:53:30,810] DEEPMD INFO    batch  550000: total wall time = 520.35 s
+[2026-02-08 04:02:12,010] DEEPMD INFO    batch  560000: trn: rmse = 5.72e-01, rmse_e = 6.42e-03, rmse_f = 5.26e-02, rmse_v = 1.49e-02, lr = 1.17e-04
+[2026-02-08 04:02:12,010] DEEPMD INFO    batch  560000: val: rmse = 7.27e-01, rmse_e = 3.88e-03, rmse_f = 6.68e-02, rmse_v = 3.28e-02
+[2026-02-08 04:02:12,010] DEEPMD INFO    batch  560000: total wall time = 521.20 s
+[2026-02-08 04:10:54,298] DEEPMD INFO    batch  570000: trn: rmse = 3.97e-01, rmse_e = 1.36e-03, rmse_f = 3.68e-02, rmse_v = 3.12e-02, lr = 1.12e-04
+[2026-02-08 04:10:54,298] DEEPMD INFO    batch  570000: val: rmse = 6.27e-01, rmse_e = 4.50e-03, rmse_f = 5.86e-02, rmse_v = 2.93e-02
+[2026-02-08 04:10:54,299] DEEPMD INFO    batch  570000: total wall time = 522.29 s
+[2026-02-08 04:19:35,783] DEEPMD INFO    batch  580000: trn: rmse = 3.36e-01, rmse_e = 3.64e-03, rmse_f = 3.19e-02, rmse_v = 1.70e-02, lr = 1.08e-04
+[2026-02-08 04:19:35,783] DEEPMD INFO    batch  580000: val: rmse = 1.04e+00, rmse_e = 2.28e-02, rmse_f = 9.78e-02, rmse_v = 6.63e-02
+[2026-02-08 04:19:35,784] DEEPMD INFO    batch  580000: total wall time = 521.49 s
+[2026-02-08 04:28:17,680] DEEPMD INFO    batch  590000: trn: rmse = 3.27e-01, rmse_e = 3.66e-03, rmse_f = 3.11e-02, rmse_v = 3.36e-02, lr = 1.04e-04
+[2026-02-08 04:28:17,680] DEEPMD INFO    batch  590000: val: rmse = 7.56e-01, rmse_e = 5.78e-03, rmse_f = 7.33e-02, rmse_v = 3.69e-02
+[2026-02-08 04:28:17,680] DEEPMD INFO    batch  590000: total wall time = 521.90 s
+[2026-02-08 04:36:58,021] DEEPMD INFO    batch  600000: trn: rmse = 5.86e-01, rmse_e = 1.74e-03, rmse_f = 5.83e-02, rmse_v = 8.74e-03, lr = 1.00e-04
+[2026-02-08 04:36:58,022] DEEPMD INFO    batch  600000: val: rmse = 7.33e-01, rmse_e = 5.84e-03, rmse_f = 7.26e-02, rmse_v = 2.38e-02
+[2026-02-08 04:36:58,022] DEEPMD INFO    batch  600000: total wall time = 520.34 s
+[2026-02-08 04:36:58,553] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 04:45:40,171] DEEPMD INFO    batch  610000: trn: rmse = 3.69e-01, rmse_e = 5.13e-03, rmse_f = 3.69e-02, rmse_v = 2.58e-02, lr = 9.62e-05
+[2026-02-08 04:45:40,172] DEEPMD INFO    batch  610000: val: rmse = 7.94e-01, rmse_e = 6.09e-03, rmse_f = 8.01e-02, rmse_v = 3.14e-02
+[2026-02-08 04:45:40,172] DEEPMD INFO    batch  610000: total wall time = 522.15 s
+[2026-02-08 04:54:21,631] DEEPMD INFO    batch  620000: trn: rmse = 3.06e-01, rmse_e = 2.67e-03, rmse_f = 3.11e-02, rmse_v = 2.47e-02, lr = 9.26e-05
+[2026-02-08 04:54:21,631] DEEPMD INFO    batch  620000: val: rmse = 4.03e-01, rmse_e = 2.60e-03, rmse_f = 4.11e-02, rmse_v = 2.60e-02
+[2026-02-08 04:54:21,631] DEEPMD INFO    batch  620000: total wall time = 521.46 s
+[2026-02-08 05:03:02,508] DEEPMD INFO    batch  630000: trn: rmse = 3.18e-01, rmse_e = 5.74e-03, rmse_f = 3.26e-02, rmse_v = 3.13e-02, lr = 8.91e-05
+[2026-02-08 05:03:02,509] DEEPMD INFO    batch  630000: val: rmse = 6.51e-01, rmse_e = 1.38e-02, rmse_f = 6.72e-02, rmse_v = 3.08e-02
+[2026-02-08 05:03:02,509] DEEPMD INFO    batch  630000: total wall time = 520.88 s
+[2026-02-08 05:11:43,651] DEEPMD INFO    batch  640000: trn: rmse = 5.57e-01, rmse_e = 4.34e-03, rmse_f = 5.95e-02, rmse_v = 2.05e-02, lr = 8.58e-05
+[2026-02-08 05:11:43,652] DEEPMD INFO    batch  640000: val: rmse = 7.29e-01, rmse_e = 3.62e-03, rmse_f = 7.80e-02, rmse_v = 2.62e-02
+[2026-02-08 05:11:43,652] DEEPMD INFO    batch  640000: total wall time = 521.14 s
+[2026-02-08 05:20:26,085] DEEPMD INFO    batch  650000: trn: rmse = 3.00e-01, rmse_e = 1.65e-03, rmse_f = 3.27e-02, rmse_v = 1.48e-02, lr = 8.25e-05
+[2026-02-08 05:20:26,086] DEEPMD INFO    batch  650000: val: rmse = 7.38e-01, rmse_e = 3.65e-03, rmse_f = 8.04e-02, rmse_v = 2.91e-02
+[2026-02-08 05:20:26,086] DEEPMD INFO    batch  650000: total wall time = 522.43 s
+[2026-02-08 05:29:07,743] DEEPMD INFO    batch  660000: trn: rmse = 2.47e-01, rmse_e = 1.16e-03, rmse_f = 2.70e-02, rmse_v = 2.38e-02, lr = 7.94e-05
+[2026-02-08 05:29:07,744] DEEPMD INFO    batch  660000: val: rmse = 4.65e-01, rmse_e = 2.99e-03, rmse_f = 5.15e-02, rmse_v = 2.41e-02
+[2026-02-08 05:29:07,744] DEEPMD INFO    batch  660000: total wall time = 521.66 s
+[2026-02-08 05:37:48,320] DEEPMD INFO    batch  670000: trn: rmse = 2.77e-01, rmse_e = 4.19e-03, rmse_f = 3.08e-02, rmse_v = 2.40e-02, lr = 7.64e-05
+[2026-02-08 05:37:48,321] DEEPMD INFO    batch  670000: val: rmse = 7.77e-01, rmse_e = 9.38e-03, rmse_f = 8.70e-02, rmse_v = 4.96e-02
+[2026-02-08 05:37:48,321] DEEPMD INFO    batch  670000: total wall time = 520.58 s
+[2026-02-08 05:46:28,385] DEEPMD INFO    batch  680000: trn: rmse = 5.64e-01, rmse_e = 1.58e-02, rmse_f = 6.36e-02, rmse_v = 3.32e-02, lr = 7.36e-05
+[2026-02-08 05:46:28,386] DEEPMD INFO    batch  680000: val: rmse = 6.10e-01, rmse_e = 4.29e-03, rmse_f = 7.02e-02, rmse_v = 3.00e-02
+[2026-02-08 05:46:28,386] DEEPMD INFO    batch  680000: total wall time = 520.07 s
+[2026-02-08 05:55:09,974] DEEPMD INFO    batch  690000: trn: rmse = 2.36e-01, rmse_e = 5.49e-03, rmse_f = 2.71e-02, rmse_v = 1.83e-02, lr = 7.08e-05
+[2026-02-08 05:55:09,975] DEEPMD INFO    batch  690000: val: rmse = 4.28e-01, rmse_e = 5.50e-03, rmse_f = 4.97e-02, rmse_v = 3.01e-02
+[2026-02-08 05:55:09,975] DEEPMD INFO    batch  690000: total wall time = 521.59 s
+[2026-02-08 06:03:51,151] DEEPMD INFO    batch  700000: trn: rmse = 2.39e-01, rmse_e = 2.41e-03, rmse_f = 2.80e-02, rmse_v = 2.30e-02, lr = 6.81e-05
+[2026-02-08 06:03:51,152] DEEPMD INFO    batch  700000: val: rmse = 5.84e-01, rmse_e = 6.41e-03, rmse_f = 6.96e-02, rmse_v = 3.23e-02
+[2026-02-08 06:03:51,152] DEEPMD INFO    batch  700000: total wall time = 521.18 s
+[2026-02-08 06:03:51,693] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 06:12:32,158] DEEPMD INFO    batch  710000: trn: rmse = 2.77e-01, rmse_e = 2.87e-03, rmse_f = 3.31e-02, rmse_v = 2.76e-02, lr = 6.56e-05
+[2026-02-08 06:12:32,158] DEEPMD INFO    batch  710000: val: rmse = 4.70e-01, rmse_e = 3.50e-03, rmse_f = 5.71e-02, rmse_v = 2.76e-02
+[2026-02-08 06:12:32,158] DEEPMD INFO    batch  710000: total wall time = 521.01 s
+[2026-02-08 06:21:12,728] DEEPMD INFO    batch  720000: trn: rmse = 4.48e-01, rmse_e = 2.31e-03, rmse_f = 5.56e-02, rmse_v = 2.09e-02, lr = 6.31e-05
+[2026-02-08 06:21:12,728] DEEPMD INFO    batch  720000: val: rmse = 4.83e-01, rmse_e = 3.85e-03, rmse_f = 5.98e-02, rmse_v = 2.85e-02
+[2026-02-08 06:21:12,728] DEEPMD INFO    batch  720000: total wall time = 520.57 s
+[2026-02-08 06:29:54,652] DEEPMD INFO    batch  730000: trn: rmse = 2.29e-01, rmse_e = 5.73e-03, rmse_f = 2.82e-02, rmse_v = 1.96e-02, lr = 6.07e-05
+[2026-02-08 06:29:54,652] DEEPMD INFO    batch  730000: val: rmse = 4.89e-01, rmse_e = 4.34e-03, rmse_f = 6.14e-02, rmse_v = 3.15e-02
+[2026-02-08 06:29:54,652] DEEPMD INFO    batch  730000: total wall time = 521.92 s
+[2026-02-08 06:38:36,182] DEEPMD INFO    batch  740000: trn: rmse = 2.11e-01, rmse_e = 3.74e-03, rmse_f = 2.63e-02, rmse_v = 2.43e-02, lr = 5.84e-05
+[2026-02-08 06:38:36,182] DEEPMD INFO    batch  740000: val: rmse = 5.42e-01, rmse_e = 2.84e-03, rmse_f = 6.99e-02, rmse_v = 2.73e-02
+[2026-02-08 06:38:36,182] DEEPMD INFO    batch  740000: total wall time = 521.53 s
+[2026-02-08 06:47:17,352] DEEPMD INFO    batch  750000: trn: rmse = 2.39e-01, rmse_e = 4.01e-03, rmse_f = 3.07e-02, rmse_v = 2.32e-02, lr = 5.62e-05
+[2026-02-08 06:47:17,352] DEEPMD INFO    batch  750000: val: rmse = 4.12e-01, rmse_e = 2.89e-03, rmse_f = 5.38e-02, rmse_v = 2.61e-02
+[2026-02-08 06:47:17,352] DEEPMD INFO    batch  750000: total wall time = 521.17 s
+[2026-02-08 06:55:58,995] DEEPMD INFO    batch  760000: trn: rmse = 3.85e-01, rmse_e = 5.00e-03, rmse_f = 5.14e-02, rmse_v = 2.01e-02, lr = 5.41e-05
+[2026-02-08 06:55:58,995] DEEPMD INFO    batch  760000: val: rmse = 4.88e-01, rmse_e = 6.03e-03, rmse_f = 6.49e-02, rmse_v = 3.03e-02
+[2026-02-08 06:55:58,995] DEEPMD INFO    batch  760000: total wall time = 521.64 s
+[2026-02-08 07:04:41,657] DEEPMD INFO    batch  770000: trn: rmse = 2.37e-01, rmse_e = 2.95e-03, rmse_f = 3.06e-02, rmse_v = 3.67e-02, lr = 5.21e-05
+[2026-02-08 07:04:41,658] DEEPMD INFO    batch  770000: val: rmse = 3.85e-01, rmse_e = 3.63e-03, rmse_f = 5.22e-02, rmse_v = 2.37e-02
+[2026-02-08 07:04:41,658] DEEPMD INFO    batch  770000: total wall time = 522.66 s
+[2026-02-08 07:13:23,270] DEEPMD INFO    batch  780000: trn: rmse = 2.17e-01, rmse_e = 2.25e-03, rmse_f = 2.92e-02, rmse_v = 2.66e-02, lr = 5.01e-05
+[2026-02-08 07:13:23,271] DEEPMD INFO    batch  780000: val: rmse = 3.80e-01, rmse_e = 3.02e-03, rmse_f = 5.22e-02, rmse_v = 3.15e-02
+[2026-02-08 07:13:23,271] DEEPMD INFO    batch  780000: total wall time = 521.61 s
+[2026-02-08 07:22:03,236] DEEPMD INFO    batch  790000: trn: rmse = 2.33e-01, rmse_e = 1.30e-03, rmse_f = 3.18e-02, rmse_v = 3.18e-02, lr = 4.82e-05
+[2026-02-08 07:22:03,237] DEEPMD INFO    batch  790000: val: rmse = 3.00e-01, rmse_e = 3.41e-03, rmse_f = 4.19e-02, rmse_v = 2.39e-02
+[2026-02-08 07:22:03,237] DEEPMD INFO    batch  790000: total wall time = 519.97 s
+[2026-02-08 07:30:44,207] DEEPMD INFO    batch  800000: trn: rmse = 3.83e-01, rmse_e = 6.29e-03, rmse_f = 5.50e-02, rmse_v = 1.86e-02, lr = 4.64e-05
+[2026-02-08 07:30:44,208] DEEPMD INFO    batch  800000: val: rmse = 4.48e-01, rmse_e = 5.14e-03, rmse_f = 6.43e-02, rmse_v = 2.51e-02
+[2026-02-08 07:30:44,208] DEEPMD INFO    batch  800000: total wall time = 520.97 s
+[2026-02-08 07:30:44,769] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 07:39:27,244] DEEPMD INFO    batch  810000: trn: rmse = 2.07e-01, rmse_e = 2.60e-03, rmse_f = 2.97e-02, rmse_v = 2.31e-02, lr = 4.47e-05
+[2026-02-08 07:39:27,245] DEEPMD INFO    batch  810000: val: rmse = 3.94e-01, rmse_e = 3.41e-03, rmse_f = 5.75e-02, rmse_v = 2.46e-02
+[2026-02-08 07:39:27,245] DEEPMD INFO    batch  810000: total wall time = 523.04 s
+[2026-02-08 07:48:09,173] DEEPMD INFO    batch  820000: trn: rmse = 1.86e-01, rmse_e = 3.10e-03, rmse_f = 2.69e-02, rmse_v = 2.12e-02, lr = 4.30e-05
+[2026-02-08 07:48:09,173] DEEPMD INFO    batch  820000: val: rmse = 3.55e-01, rmse_e = 4.36e-03, rmse_f = 5.24e-02, rmse_v = 2.76e-02
+[2026-02-08 07:48:09,174] DEEPMD INFO    batch  820000: total wall time = 521.93 s
+[2026-02-08 07:56:50,891] DEEPMD INFO    batch  830000: trn: rmse = 2.77e-01, rmse_e = 3.87e-03, rmse_f = 4.08e-02, rmse_v = 3.41e-02, lr = 4.14e-05
+[2026-02-08 07:56:50,891] DEEPMD INFO    batch  830000: val: rmse = 3.36e-01, rmse_e = 5.61e-03, rmse_f = 5.01e-02, rmse_v = 3.22e-02
+[2026-02-08 07:56:50,891] DEEPMD INFO    batch  830000: total wall time = 521.72 s
+[2026-02-08 08:05:31,704] DEEPMD INFO    batch  840000: trn: rmse = 3.14e-01, rmse_e = 3.82e-03, rmse_f = 4.75e-02, rmse_v = 3.49e-02, lr = 3.98e-05
+[2026-02-08 08:05:31,704] DEEPMD INFO    batch  840000: val: rmse = 4.47e-01, rmse_e = 4.23e-03, rmse_f = 6.93e-02, rmse_v = 2.72e-02
+[2026-02-08 08:05:31,705] DEEPMD INFO    batch  840000: total wall time = 520.81 s
+[2026-02-08 08:14:14,395] DEEPMD INFO    batch  850000: trn: rmse = 1.82e-01, rmse_e = 1.65e-03, rmse_f = 2.82e-02, rmse_v = 1.86e-02, lr = 3.83e-05
+[2026-02-08 08:14:14,395] DEEPMD INFO    batch  850000: val: rmse = 3.52e-01, rmse_e = 4.90e-03, rmse_f = 5.48e-02, rmse_v = 2.99e-02
+[2026-02-08 08:14:14,395] DEEPMD INFO    batch  850000: total wall time = 522.69 s
+[2026-02-08 08:22:55,456] DEEPMD INFO    batch  860000: trn: rmse = 1.99e-01, rmse_e = 4.21e-03, rmse_f = 3.09e-02, rmse_v = 2.44e-02, lr = 3.69e-05
+[2026-02-08 08:22:55,457] DEEPMD INFO    batch  860000: val: rmse = 3.15e-01, rmse_e = 2.70e-03, rmse_f = 4.99e-02, rmse_v = 2.76e-02
+[2026-02-08 08:22:55,457] DEEPMD INFO    batch  860000: total wall time = 521.06 s
+[2026-02-08 08:31:37,302] DEEPMD INFO    batch  870000: trn: rmse = 2.00e-01, rmse_e = 4.40e-03, rmse_f = 3.11e-02, rmse_v = 2.89e-02, lr = 3.55e-05
+[2026-02-08 08:31:37,303] DEEPMD INFO    batch  870000: val: rmse = 5.07e-01, rmse_e = 1.84e-02, rmse_f = 7.90e-02, rmse_v = 3.72e-02
+[2026-02-08 08:31:37,303] DEEPMD INFO    batch  870000: total wall time = 521.85 s
+[2026-02-08 08:40:18,984] DEEPMD INFO    batch  880000: trn: rmse = 3.44e-01, rmse_e = 3.79e-03, rmse_f = 5.70e-02, rmse_v = 2.82e-02, lr = 3.41e-05
+[2026-02-08 08:40:18,985] DEEPMD INFO    batch  880000: val: rmse = 3.34e-01, rmse_e = 3.05e-03, rmse_f = 5.56e-02, rmse_v = 2.30e-02
+[2026-02-08 08:40:18,985] DEEPMD INFO    batch  880000: total wall time = 521.68 s
+[2026-02-08 08:49:02,007] DEEPMD INFO    batch  890000: trn: rmse = 1.74e-01, rmse_e = 1.96e-03, rmse_f = 2.84e-02, rmse_v = 2.49e-02, lr = 3.29e-05
+[2026-02-08 08:49:02,007] DEEPMD INFO    batch  890000: val: rmse = 3.19e-01, rmse_e = 3.67e-03, rmse_f = 5.36e-02, rmse_v = 2.75e-02
+[2026-02-08 08:49:02,007] DEEPMD INFO    batch  890000: total wall time = 523.02 s
+[2026-02-08 08:57:43,618] DEEPMD INFO    batch  900000: trn: rmse = 1.47e-01, rmse_e = 3.05e-03, rmse_f = 2.49e-02, rmse_v = 1.45e-02, lr = 3.16e-05
+[2026-02-08 08:57:43,618] DEEPMD INFO    batch  900000: val: rmse = 3.02e-01, rmse_e = 3.28e-03, rmse_f = 5.11e-02, rmse_v = 3.32e-02
+[2026-02-08 08:57:43,619] DEEPMD INFO    batch  900000: total wall time = 521.61 s
+[2026-02-08 08:57:44,082] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 09:06:25,314] DEEPMD INFO    batch  910000: trn: rmse = 1.80e-01, rmse_e = 4.92e-03, rmse_f = 3.08e-02, rmse_v = 1.74e-02, lr = 3.04e-05
+[2026-02-08 09:06:25,315] DEEPMD INFO    batch  910000: val: rmse = 3.39e-01, rmse_e = 2.16e-03, rmse_f = 5.94e-02, rmse_v = 2.78e-02
+[2026-02-08 09:06:25,315] DEEPMD INFO    batch  910000: total wall time = 521.70 s
+[2026-02-08 09:15:06,293] DEEPMD INFO    batch  920000: trn: rmse = 3.46e-01, rmse_e = 4.11e-03, rmse_f = 6.18e-02, rmse_v = 2.64e-02, lr = 2.93e-05
+[2026-02-08 09:15:06,293] DEEPMD INFO    batch  920000: val: rmse = 4.23e-01, rmse_e = 7.19e-03, rmse_f = 7.51e-02, rmse_v = 3.26e-02
+[2026-02-08 09:15:06,294] DEEPMD INFO    batch  920000: total wall time = 520.98 s
+[2026-02-08 09:23:48,647] DEEPMD INFO    batch  930000: trn: rmse = 2.01e-01, rmse_e = 2.37e-03, rmse_f = 3.65e-02, rmse_v = 1.72e-02, lr = 2.82e-05
+[2026-02-08 09:23:48,648] DEEPMD INFO    batch  930000: val: rmse = 2.84e-01, rmse_e = 3.28e-03, rmse_f = 5.15e-02, rmse_v = 2.40e-02
+[2026-02-08 09:23:48,648] DEEPMD INFO    batch  930000: total wall time = 522.35 s
+[2026-02-08 09:32:29,063] DEEPMD INFO    batch  940000: trn: rmse = 1.70e-01, rmse_e = 1.87e-03, rmse_f = 2.91e-02, rmse_v = 3.23e-02, lr = 2.71e-05
+[2026-02-08 09:32:29,063] DEEPMD INFO    batch  940000: val: rmse = 3.15e-01, rmse_e = 2.55e-03, rmse_f = 5.83e-02, rmse_v = 2.69e-02
+[2026-02-08 09:32:29,064] DEEPMD INFO    batch  940000: total wall time = 520.42 s
+[2026-02-08 09:41:10,590] DEEPMD INFO    batch  950000: trn: rmse = 1.65e-01, rmse_e = 2.68e-03, rmse_f = 2.96e-02, rmse_v = 2.63e-02, lr = 2.61e-05
+[2026-02-08 09:41:10,590] DEEPMD INFO    batch  950000: val: rmse = 3.08e-01, rmse_e = 4.60e-03, rmse_f = 5.71e-02, rmse_v = 2.88e-02
+[2026-02-08 09:41:10,590] DEEPMD INFO    batch  950000: total wall time = 521.53 s
+[2026-02-08 09:49:52,049] DEEPMD INFO    batch  960000: trn: rmse = 3.76e-01, rmse_e = 1.55e-02, rmse_f = 6.85e-02, rmse_v = 4.13e-02, lr = 2.51e-05
+[2026-02-08 09:49:52,050] DEEPMD INFO    batch  960000: val: rmse = 3.38e-01, rmse_e = 3.31e-03, rmse_f = 6.46e-02, rmse_v = 3.14e-02
+[2026-02-08 09:49:52,050] DEEPMD INFO    batch  960000: total wall time = 521.46 s
+[2026-02-08 09:58:34,112] DEEPMD INFO    batch  970000: trn: rmse = 1.54e-01, rmse_e = 3.08e-03, rmse_f = 2.74e-02, rmse_v = 3.06e-02, lr = 2.42e-05
+[2026-02-08 09:58:34,113] DEEPMD INFO    batch  970000: val: rmse = 3.14e-01, rmse_e = 3.13e-03, rmse_f = 6.07e-02, rmse_v = 2.97e-02
+[2026-02-08 09:58:34,113] DEEPMD INFO    batch  970000: total wall time = 522.06 s
+[2026-02-08 10:07:16,436] DEEPMD INFO    batch  980000: trn: rmse = 1.50e-01, rmse_e = 5.27e-03, rmse_f = 2.86e-02, rmse_v = 1.80e-02, lr = 2.33e-05
+[2026-02-08 10:07:16,438] DEEPMD INFO    batch  980000: val: rmse = 2.40e-01, rmse_e = 3.49e-03, rmse_f = 4.62e-02, rmse_v = 3.23e-02
+[2026-02-08 10:07:16,438] DEEPMD INFO    batch  980000: total wall time = 522.33 s
+[2026-02-08 10:15:56,973] DEEPMD INFO    batch  990000: trn: rmse = 1.73e-01, rmse_e = 3.89e-03, rmse_f = 3.34e-02, rmse_v = 2.62e-02, lr = 2.24e-05
+[2026-02-08 10:15:56,973] DEEPMD INFO    batch  990000: val: rmse = 2.67e-01, rmse_e = 4.20e-03, rmse_f = 5.34e-02, rmse_v = 2.66e-02
+[2026-02-08 10:15:56,973] DEEPMD INFO    batch  990000: total wall time = 520.54 s
+[2026-02-08 10:24:37,754] DEEPMD INFO    batch 1000000: trn: rmse = 2.52e-01, rmse_e = 4.97e-03, rmse_f = 5.13e-02, rmse_v = 2.56e-02, lr = 2.15e-05
+[2026-02-08 10:24:37,755] DEEPMD INFO    batch 1000000: val: rmse = 2.62e-01, rmse_e = 4.69e-03, rmse_f = 5.31e-02, rmse_v = 2.74e-02
+[2026-02-08 10:24:37,755] DEEPMD INFO    batch 1000000: total wall time = 520.78 s
+[2026-02-08 10:24:38,206] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 10:33:21,073] DEEPMD INFO    batch 1010000: trn: rmse = 1.85e-01, rmse_e = 2.39e-03, rmse_f = 3.84e-02, rmse_v = 1.95e-02, lr = 2.07e-05
+[2026-02-08 10:33:21,073] DEEPMD INFO    batch 1010000: val: rmse = 2.64e-01, rmse_e = 3.39e-03, rmse_f = 5.50e-02, rmse_v = 2.63e-02
+[2026-02-08 10:33:21,073] DEEPMD INFO    batch 1010000: total wall time = 523.32 s
+[2026-02-08 10:42:03,054] DEEPMD INFO    batch 1020000: trn: rmse = 1.55e-01, rmse_e = 1.46e-03, rmse_f = 3.20e-02, rmse_v = 2.28e-02, lr = 2.00e-05
+[2026-02-08 10:42:03,056] DEEPMD INFO    batch 1020000: val: rmse = 2.15e-01, rmse_e = 2.46e-03, rmse_f = 4.50e-02, rmse_v = 2.55e-02
+[2026-02-08 10:42:03,056] DEEPMD INFO    batch 1020000: total wall time = 521.98 s
+[2026-02-08 10:50:44,390] DEEPMD INFO    batch 1030000: trn: rmse = 1.55e-01, rmse_e = 2.59e-03, rmse_f = 3.25e-02, rmse_v = 2.25e-02, lr = 1.92e-05
+[2026-02-08 10:50:44,390] DEEPMD INFO    batch 1030000: val: rmse = 2.40e-01, rmse_e = 3.36e-03, rmse_f = 5.09e-02, rmse_v = 3.07e-02
+[2026-02-08 10:50:44,391] DEEPMD INFO    batch 1030000: total wall time = 521.33 s
+[2026-02-08 10:59:25,400] DEEPMD INFO    batch 1040000: trn: rmse = 3.42e-01, rmse_e = 6.79e-03, rmse_f = 7.47e-02, rmse_v = 3.71e-02, lr = 1.85e-05
+[2026-02-08 10:59:25,400] DEEPMD INFO    batch 1040000: val: rmse = 2.80e-01, rmse_e = 4.54e-03, rmse_f = 6.17e-02, rmse_v = 2.43e-02
+[2026-02-08 10:59:25,401] DEEPMD INFO    batch 1040000: total wall time = 521.01 s
+[2026-02-08 11:08:07,429] DEEPMD INFO    batch 1050000: trn: rmse = 1.68e-01, rmse_e = 1.34e-03, rmse_f = 3.78e-02, rmse_v = 1.64e-02, lr = 1.78e-05
+[2026-02-08 11:08:07,430] DEEPMD INFO    batch 1050000: val: rmse = 2.59e-01, rmse_e = 3.29e-03, rmse_f = 5.79e-02, rmse_v = 2.54e-02
+[2026-02-08 11:08:07,430] DEEPMD INFO    batch 1050000: total wall time = 522.03 s
+[2026-02-08 11:16:48,032] DEEPMD INFO    batch 1060000: trn: rmse = 1.33e-01, rmse_e = 2.33e-03, rmse_f = 2.77e-02, rmse_v = 2.76e-02, lr = 1.71e-05
+[2026-02-08 11:16:48,032] DEEPMD INFO    batch 1060000: val: rmse = 2.92e-01, rmse_e = 7.38e-03, rmse_f = 6.57e-02, rmse_v = 2.55e-02
+[2026-02-08 11:16:48,033] DEEPMD INFO    batch 1060000: total wall time = 520.60 s
+[2026-02-08 11:25:29,560] DEEPMD INFO    batch 1070000: trn: rmse = 1.41e-01, rmse_e = 1.82e-03, rmse_f = 3.11e-02, rmse_v = 2.44e-02, lr = 1.65e-05
+[2026-02-08 11:25:29,560] DEEPMD INFO    batch 1070000: val: rmse = 2.34e-01, rmse_e = 3.86e-03, rmse_f = 5.42e-02, rmse_v = 2.45e-02
+[2026-02-08 11:25:29,561] DEEPMD INFO    batch 1070000: total wall time = 521.53 s
+[2026-02-08 11:34:09,851] DEEPMD INFO    batch 1080000: trn: rmse = 2.85e-01, rmse_e = 6.34e-03, rmse_f = 6.72e-02, rmse_v = 2.59e-02, lr = 1.58e-05
+[2026-02-08 11:34:09,852] DEEPMD INFO    batch 1080000: val: rmse = 2.81e-01, rmse_e = 3.22e-03, rmse_f = 6.68e-02, rmse_v = 2.68e-02
+[2026-02-08 11:34:09,852] DEEPMD INFO    batch 1080000: total wall time = 520.29 s
+[2026-02-08 11:42:51,443] DEEPMD INFO    batch 1090000: trn: rmse = 1.33e-01, rmse_e = 2.79e-03, rmse_f = 3.10e-02, rmse_v = 1.94e-02, lr = 1.53e-05
+[2026-02-08 11:42:51,443] DEEPMD INFO    batch 1090000: val: rmse = 2.56e-01, rmse_e = 3.22e-03, rmse_f = 6.12e-02, rmse_v = 2.83e-02
+[2026-02-08 11:42:51,443] DEEPMD INFO    batch 1090000: total wall time = 521.59 s
+[2026-02-08 11:51:33,431] DEEPMD INFO    batch 1100000: trn: rmse = 1.19e-01, rmse_e = 3.62e-03, rmse_f = 2.80e-02, rmse_v = 1.71e-02, lr = 1.47e-05
+[2026-02-08 11:51:33,431] DEEPMD INFO    batch 1100000: val: rmse = 2.07e-01, rmse_e = 3.72e-03, rmse_f = 5.00e-02, rmse_v = 2.39e-02
+[2026-02-08 11:51:33,431] DEEPMD INFO    batch 1100000: total wall time = 521.99 s
+[2026-02-08 11:51:33,886] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 12:00:14,637] DEEPMD INFO    batch 1110000: trn: rmse = 1.42e-01, rmse_e = 1.14e-03, rmse_f = 3.44e-02, rmse_v = 2.11e-02, lr = 1.41e-05
+[2026-02-08 12:00:14,638] DEEPMD INFO    batch 1110000: val: rmse = 1.73e-01, rmse_e = 2.87e-03, rmse_f = 4.11e-02, rmse_v = 2.52e-02
+[2026-02-08 12:00:14,638] DEEPMD INFO    batch 1110000: total wall time = 521.21 s
+[2026-02-08 12:08:55,545] DEEPMD INFO    batch 1120000: trn: rmse = 1.79e-01, rmse_e = 2.34e-03, rmse_f = 4.42e-02, rmse_v = 2.63e-02, lr = 1.36e-05
+[2026-02-08 12:08:55,546] DEEPMD INFO    batch 1120000: val: rmse = 2.41e-01, rmse_e = 2.85e-03, rmse_f = 6.08e-02, rmse_v = 2.62e-02
+[2026-02-08 12:08:55,546] DEEPMD INFO    batch 1120000: total wall time = 520.91 s
+[2026-02-08 12:17:36,672] DEEPMD INFO    batch 1130000: trn: rmse = 1.23e-01, rmse_e = 1.91e-03, rmse_f = 3.12e-02, rmse_v = 1.56e-02, lr = 1.31e-05
+[2026-02-08 12:17:36,673] DEEPMD INFO    batch 1130000: val: rmse = 2.03e-01, rmse_e = 4.10e-03, rmse_f = 5.05e-02, rmse_v = 3.01e-02
+[2026-02-08 12:17:36,673] DEEPMD INFO    batch 1130000: total wall time = 521.13 s
+[2026-02-08 12:26:16,579] DEEPMD INFO    batch 1140000: trn: rmse = 1.30e-01, rmse_e = 3.41e-03, rmse_f = 3.19e-02, rmse_v = 2.35e-02, lr = 1.26e-05
+[2026-02-08 12:26:16,579] DEEPMD INFO    batch 1140000: val: rmse = 2.01e-01, rmse_e = 3.95e-03, rmse_f = 5.17e-02, rmse_v = 2.49e-02
+[2026-02-08 12:26:16,579] DEEPMD INFO    batch 1140000: total wall time = 519.91 s
+[2026-02-08 12:34:57,366] DEEPMD INFO    batch 1150000: trn: rmse = 1.50e-01, rmse_e = 3.40e-03, rmse_f = 3.54e-02, rmse_v = 3.41e-02, lr = 1.21e-05
+[2026-02-08 12:34:57,367] DEEPMD INFO    batch 1150000: val: rmse = 1.85e-01, rmse_e = 2.02e-03, rmse_f = 4.96e-02, rmse_v = 1.82e-02
+[2026-02-08 12:34:57,367] DEEPMD INFO    batch 1150000: total wall time = 520.79 s
+[2026-02-08 12:43:38,205] DEEPMD INFO    batch 1160000: trn: rmse = 1.98e-01, rmse_e = 7.61e-03, rmse_f = 4.89e-02, rmse_v = 3.61e-02, lr = 1.17e-05
+[2026-02-08 12:43:38,205] DEEPMD INFO    batch 1160000: val: rmse = 2.24e-01, rmse_e = 4.97e-03, rmse_f = 5.99e-02, rmse_v = 2.34e-02
+[2026-02-08 12:43:38,205] DEEPMD INFO    batch 1160000: total wall time = 520.84 s
+[2026-02-08 12:52:19,597] DEEPMD INFO    batch 1170000: trn: rmse = 1.40e-01, rmse_e = 1.80e-03, rmse_f = 3.75e-02, rmse_v = 2.21e-02, lr = 1.12e-05
+[2026-02-08 12:52:19,598] DEEPMD INFO    batch 1170000: val: rmse = 1.74e-01, rmse_e = 3.11e-03, rmse_f = 4.76e-02, rmse_v = 2.14e-02
+[2026-02-08 12:52:19,598] DEEPMD INFO    batch 1170000: total wall time = 521.39 s
+[2026-02-08 13:01:00,999] DEEPMD INFO    batch 1180000: trn: rmse = 1.16e-01, rmse_e = 2.20e-03, rmse_f = 2.85e-02, rmse_v = 2.73e-02, lr = 1.08e-05
+[2026-02-08 13:01:01,000] DEEPMD INFO    batch 1180000: val: rmse = 1.61e-01, rmse_e = 2.03e-03, rmse_f = 4.44e-02, rmse_v = 2.31e-02
+[2026-02-08 13:01:01,000] DEEPMD INFO    batch 1180000: total wall time = 521.40 s
+[2026-02-08 13:09:41,598] DEEPMD INFO    batch 1190000: trn: rmse = 1.44e-01, rmse_e = 2.50e-03, rmse_f = 3.91e-02, rmse_v = 2.56e-02, lr = 1.04e-05
+[2026-02-08 13:09:41,599] DEEPMD INFO    batch 1190000: val: rmse = 1.71e-01, rmse_e = 3.62e-03, rmse_f = 4.70e-02, rmse_v = 2.45e-02
+[2026-02-08 13:09:41,599] DEEPMD INFO    batch 1190000: total wall time = 520.60 s
+[2026-02-08 13:18:22,353] DEEPMD INFO    batch 1200000: trn: rmse = 1.97e-01, rmse_e = 4.79e-03, rmse_f = 5.70e-02, rmse_v = 1.96e-02, lr = 1.00e-05
+[2026-02-08 13:18:22,354] DEEPMD INFO    batch 1200000: val: rmse = 1.86e-01, rmse_e = 4.84e-03, rmse_f = 5.25e-02, rmse_v = 2.43e-02
+[2026-02-08 13:18:22,354] DEEPMD INFO    batch 1200000: total wall time = 520.75 s
+[2026-02-08 13:18:22,874] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 13:27:04,063] DEEPMD INFO    batch 1210000: trn: rmse = 9.85e-02, rmse_e = 1.27e-03, rmse_f = 2.78e-02, rmse_v = 1.73e-02, lr = 9.62e-06
+[2026-02-08 13:27:04,064] DEEPMD INFO    batch 1210000: val: rmse = 1.93e-01, rmse_e = 2.45e-03, rmse_f = 5.65e-02, rmse_v = 2.46e-02
+[2026-02-08 13:27:04,064] DEEPMD INFO    batch 1210000: total wall time = 521.71 s
+[2026-02-08 13:35:44,708] DEEPMD INFO    batch 1220000: trn: rmse = 1.23e-01, rmse_e = 1.06e-03, rmse_f = 3.55e-02, rmse_v = 2.13e-02, lr = 9.26e-06
+[2026-02-08 13:35:44,708] DEEPMD INFO    batch 1220000: val: rmse = 1.58e-01, rmse_e = 3.29e-03, rmse_f = 4.62e-02, rmse_v = 2.20e-02
+[2026-02-08 13:35:44,708] DEEPMD INFO    batch 1220000: total wall time = 520.64 s
+[2026-02-08 13:44:24,859] DEEPMD INFO    batch 1230000: trn: rmse = 1.19e-01, rmse_e = 2.15e-03, rmse_f = 3.64e-02, rmse_v = 1.39e-02, lr = 8.91e-06
+[2026-02-08 13:44:24,859] DEEPMD INFO    batch 1230000: val: rmse = 1.56e-01, rmse_e = 2.61e-03, rmse_f = 4.56e-02, rmse_v = 2.61e-02
+[2026-02-08 13:44:24,860] DEEPMD INFO    batch 1230000: total wall time = 520.15 s
+[2026-02-08 13:53:05,954] DEEPMD INFO    batch 1240000: trn: rmse = 1.73e-01, rmse_e = 7.71e-03, rmse_f = 5.22e-02, rmse_v = 1.43e-02, lr = 8.58e-06
+[2026-02-08 13:53:05,954] DEEPMD INFO    batch 1240000: val: rmse = 1.93e-01, rmse_e = 5.42e-03, rmse_f = 5.80e-02, rmse_v = 2.59e-02
+[2026-02-08 13:53:05,955] DEEPMD INFO    batch 1240000: total wall time = 521.09 s
+[2026-02-08 14:01:46,798] DEEPMD INFO    batch 1250000: trn: rmse = 1.14e-01, rmse_e = 2.20e-03, rmse_f = 3.46e-02, rmse_v = 1.92e-02, lr = 8.25e-06
+[2026-02-08 14:01:46,798] DEEPMD INFO    batch 1250000: val: rmse = 1.69e-01, rmse_e = 3.65e-03, rmse_f = 5.16e-02, rmse_v = 2.41e-02
+[2026-02-08 14:01:46,798] DEEPMD INFO    batch 1250000: total wall time = 520.84 s
+[2026-02-08 14:10:27,806] DEEPMD INFO    batch 1260000: trn: rmse = 1.01e-01, rmse_e = 6.89e-04, rmse_f = 2.72e-02, rmse_v = 2.75e-02, lr = 7.94e-06
+[2026-02-08 14:10:27,806] DEEPMD INFO    batch 1260000: val: rmse = 1.64e-01, rmse_e = 4.02e-03, rmse_f = 5.15e-02, rmse_v = 2.17e-02
+[2026-02-08 14:10:27,806] DEEPMD INFO    batch 1260000: total wall time = 521.01 s
+[2026-02-08 14:19:08,251] DEEPMD INFO    batch 1270000: trn: rmse = 1.18e-01, rmse_e = 2.54e-03, rmse_f = 3.37e-02, rmse_v = 2.81e-02, lr = 7.64e-06
+[2026-02-08 14:19:08,252] DEEPMD INFO    batch 1270000: val: rmse = 1.59e-01, rmse_e = 3.24e-03, rmse_f = 5.05e-02, rmse_v = 2.27e-02
+[2026-02-08 14:19:08,252] DEEPMD INFO    batch 1270000: total wall time = 520.45 s
+[2026-02-08 14:27:47,942] DEEPMD INFO    batch 1280000: trn: rmse = 1.32e-01, rmse_e = 1.73e-03, rmse_f = 4.19e-02, rmse_v = 2.38e-02, lr = 7.36e-06
+[2026-02-08 14:27:47,943] DEEPMD INFO    batch 1280000: val: rmse = 1.74e-01, rmse_e = 4.52e-03, rmse_f = 5.51e-02, rmse_v = 2.57e-02
+[2026-02-08 14:27:47,943] DEEPMD INFO    batch 1280000: total wall time = 519.69 s
+[2026-02-08 14:36:30,198] DEEPMD INFO    batch 1290000: trn: rmse = 9.21e-02, rmse_e = 4.91e-04, rmse_f = 2.92e-02, rmse_v = 1.83e-02, lr = 7.08e-06
+[2026-02-08 14:36:30,199] DEEPMD INFO    batch 1290000: val: rmse = 1.62e-01, rmse_e = 2.62e-03, rmse_f = 5.43e-02, rmse_v = 2.06e-02
+[2026-02-08 14:36:30,199] DEEPMD INFO    batch 1290000: total wall time = 522.26 s
+[2026-02-08 14:45:11,938] DEEPMD INFO    batch 1300000: trn: rmse = 1.11e-01, rmse_e = 3.22e-03, rmse_f = 3.33e-02, rmse_v = 2.60e-02, lr = 6.81e-06
+[2026-02-08 14:45:11,938] DEEPMD INFO    batch 1300000: val: rmse = 1.81e-01, rmse_e = 4.02e-03, rmse_f = 6.07e-02, rmse_v = 2.43e-02
+[2026-02-08 14:45:11,939] DEEPMD INFO    batch 1300000: total wall time = 521.74 s
+[2026-02-08 14:45:12,412] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 14:53:53,204] DEEPMD INFO    batch 1310000: trn: rmse = 1.17e-01, rmse_e = 2.84e-04, rmse_f = 3.76e-02, rmse_v = 2.52e-02, lr = 6.56e-06
+[2026-02-08 14:53:53,204] DEEPMD INFO    batch 1310000: val: rmse = 1.38e-01, rmse_e = 3.19e-03, rmse_f = 4.40e-02, rmse_v = 2.61e-02
+[2026-02-08 14:53:53,204] DEEPMD INFO    batch 1310000: total wall time = 521.27 s
+[2026-02-08 15:02:33,404] DEEPMD INFO    batch 1320000: trn: rmse = 2.16e-01, rmse_e = 3.66e-03, rmse_f = 7.72e-02, rmse_v = 2.31e-02, lr = 6.31e-06
+[2026-02-08 15:02:33,404] DEEPMD INFO    batch 1320000: val: rmse = 1.71e-01, rmse_e = 4.45e-03, rmse_f = 5.97e-02, rmse_v = 2.12e-02
+[2026-02-08 15:02:33,404] DEEPMD INFO    batch 1320000: total wall time = 520.20 s
+[2026-02-08 15:11:14,498] DEEPMD INFO    batch 1330000: trn: rmse = 8.27e-02, rmse_e = 1.60e-03, rmse_f = 2.65e-02, rmse_v = 1.91e-02, lr = 6.07e-06
+[2026-02-08 15:11:14,498] DEEPMD INFO    batch 1330000: val: rmse = 1.68e-01, rmse_e = 2.19e-03, rmse_f = 5.69e-02, rmse_v = 3.14e-02
+[2026-02-08 15:11:14,498] DEEPMD INFO    batch 1330000: total wall time = 521.09 s
+[2026-02-08 15:19:54,645] DEEPMD INFO    batch 1340000: trn: rmse = 1.00e-01, rmse_e = 3.57e-04, rmse_f = 3.20e-02, rmse_v = 2.54e-02, lr = 5.84e-06
+[2026-02-08 15:19:54,645] DEEPMD INFO    batch 1340000: val: rmse = 1.35e-01, rmse_e = 4.74e-03, rmse_f = 4.77e-02, rmse_v = 1.72e-02
+[2026-02-08 15:19:54,645] DEEPMD INFO    batch 1340000: total wall time = 520.15 s
+[2026-02-08 15:28:34,553] DEEPMD INFO    batch 1350000: trn: rmse = 1.23e-01, rmse_e = 2.73e-03, rmse_f = 4.23e-02, rmse_v = 2.44e-02, lr = 5.62e-06
+[2026-02-08 15:28:34,554] DEEPMD INFO    batch 1350000: val: rmse = 1.57e-01, rmse_e = 3.78e-03, rmse_f = 5.63e-02, rmse_v = 2.17e-02
+[2026-02-08 15:28:34,554] DEEPMD INFO    batch 1350000: total wall time = 519.91 s
+[2026-02-08 15:37:14,993] DEEPMD INFO    batch 1360000: trn: rmse = 1.72e-01, rmse_e = 6.74e-03, rmse_f = 6.21e-02, rmse_v = 2.43e-02, lr = 5.41e-06
+[2026-02-08 15:37:14,993] DEEPMD INFO    batch 1360000: val: rmse = 1.37e-01, rmse_e = 3.89e-03, rmse_f = 4.91e-02, rmse_v = 2.18e-02
+[2026-02-08 15:37:14,994] DEEPMD INFO    batch 1360000: total wall time = 520.44 s
+[2026-02-08 15:45:56,235] DEEPMD INFO    batch 1370000: trn: rmse = 1.01e-01, rmse_e = 4.54e-03, rmse_f = 3.45e-02, rmse_v = 1.92e-02, lr = 5.21e-06
+[2026-02-08 15:45:56,235] DEEPMD INFO    batch 1370000: val: rmse = 1.50e-01, rmse_e = 2.80e-03, rmse_f = 5.66e-02, rmse_v = 2.17e-02
+[2026-02-08 15:45:56,235] DEEPMD INFO    batch 1370000: total wall time = 521.24 s
+[2026-02-08 15:54:36,823] DEEPMD INFO    batch 1380000: trn: rmse = 1.13e-01, rmse_e = 1.92e-03, rmse_f = 3.75e-02, rmse_v = 2.97e-02, lr = 5.01e-06
+[2026-02-08 15:54:36,824] DEEPMD INFO    batch 1380000: val: rmse = 1.50e-01, rmse_e = 5.01e-03, rmse_f = 5.59e-02, rmse_v = 2.26e-02
+[2026-02-08 15:54:36,824] DEEPMD INFO    batch 1380000: total wall time = 520.59 s
+[2026-02-08 16:03:18,021] DEEPMD INFO    batch 1390000: trn: rmse = 1.10e-01, rmse_e = 8.21e-04, rmse_f = 4.01e-02, rmse_v = 2.38e-02, lr = 4.82e-06
+[2026-02-08 16:03:18,021] DEEPMD INFO    batch 1390000: val: rmse = 1.52e-01, rmse_e = 3.93e-03, rmse_f = 5.76e-02, rmse_v = 2.46e-02
+[2026-02-08 16:03:18,022] DEEPMD INFO    batch 1390000: total wall time = 521.20 s
+[2026-02-08 16:11:58,337] DEEPMD INFO    batch 1400000: trn: rmse = 1.21e-01, rmse_e = 3.88e-03, rmse_f = 4.35e-02, rmse_v = 2.61e-02, lr = 4.64e-06
+[2026-02-08 16:11:58,338] DEEPMD INFO    batch 1400000: val: rmse = 1.38e-01, rmse_e = 5.33e-03, rmse_f = 5.21e-02, rmse_v = 2.14e-02
+[2026-02-08 16:11:58,338] DEEPMD INFO    batch 1400000: total wall time = 520.32 s
+[2026-02-08 16:11:58,802] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 16:20:40,106] DEEPMD INFO    batch 1410000: trn: rmse = 1.29e-01, rmse_e = 7.54e-04, rmse_f = 5.41e-02, rmse_v = 1.18e-02, lr = 4.47e-06
+[2026-02-08 16:20:40,106] DEEPMD INFO    batch 1410000: val: rmse = 1.28e-01, rmse_e = 1.76e-03, rmse_f = 5.05e-02, rmse_v = 2.14e-02
+[2026-02-08 16:20:40,106] DEEPMD INFO    batch 1410000: total wall time = 521.77 s
+[2026-02-08 16:29:20,573] DEEPMD INFO    batch 1420000: trn: rmse = 9.38e-02, rmse_e = 2.83e-03, rmse_f = 3.50e-02, rmse_v = 2.00e-02, lr = 4.30e-06
+[2026-02-08 16:29:20,574] DEEPMD INFO    batch 1420000: val: rmse = 1.17e-01, rmse_e = 2.72e-03, rmse_f = 4.64e-02, rmse_v = 1.92e-02
+[2026-02-08 16:29:20,574] DEEPMD INFO    batch 1420000: total wall time = 520.47 s
+[2026-02-08 16:38:00,849] DEEPMD INFO    batch 1430000: trn: rmse = 9.90e-02, rmse_e = 2.29e-03, rmse_f = 3.52e-02, rmse_v = 2.59e-02, lr = 4.14e-06
+[2026-02-08 16:38:00,850] DEEPMD INFO    batch 1430000: val: rmse = 1.09e-01, rmse_e = 3.97e-03, rmse_f = 4.04e-02, rmse_v = 2.28e-02
+[2026-02-08 16:38:00,850] DEEPMD INFO    batch 1430000: total wall time = 520.28 s
+[2026-02-08 16:46:40,123] DEEPMD INFO    batch 1440000: trn: rmse = 1.52e-01, rmse_e = 6.31e-03, rmse_f = 6.09e-02, rmse_v = 2.37e-02, lr = 3.98e-06
+[2026-02-08 16:46:40,123] DEEPMD INFO    batch 1440000: val: rmse = 1.26e-01, rmse_e = 4.05e-03, rmse_f = 5.00e-02, rmse_v = 2.24e-02
+[2026-02-08 16:46:40,123] DEEPMD INFO    batch 1440000: total wall time = 519.27 s
+[2026-02-08 16:55:21,867] DEEPMD INFO    batch 1450000: trn: rmse = 7.53e-02, rmse_e = 1.27e-03, rmse_f = 2.75e-02, rmse_v = 2.02e-02, lr = 3.83e-06
+[2026-02-08 16:55:21,867] DEEPMD INFO    batch 1450000: val: rmse = 1.05e-01, rmse_e = 1.42e-03, rmse_f = 4.20e-02, rmse_v = 2.28e-02
+[2026-02-08 16:55:21,867] DEEPMD INFO    batch 1450000: total wall time = 521.74 s
+[2026-02-08 17:04:02,449] DEEPMD INFO    batch 1460000: trn: rmse = 7.36e-02, rmse_e = 2.06e-03, rmse_f = 2.74e-02, rmse_v = 1.88e-02, lr = 3.69e-06
+[2026-02-08 17:04:02,449] DEEPMD INFO    batch 1460000: val: rmse = 1.10e-01, rmse_e = 2.98e-03, rmse_f = 4.53e-02, rmse_v = 2.06e-02
+[2026-02-08 17:04:02,450] DEEPMD INFO    batch 1460000: total wall time = 520.58 s
+[2026-02-08 17:12:43,158] DEEPMD INFO    batch 1470000: trn: rmse = 9.29e-02, rmse_e = 2.32e-03, rmse_f = 3.85e-02, rmse_v = 1.84e-02, lr = 3.55e-06
+[2026-02-08 17:12:43,158] DEEPMD INFO    batch 1470000: val: rmse = 1.36e-01, rmse_e = 2.75e-03, rmse_f = 5.70e-02, rmse_v = 2.56e-02
+[2026-02-08 17:12:43,158] DEEPMD INFO    batch 1470000: total wall time = 520.71 s
+[2026-02-08 17:21:22,352] DEEPMD INFO    batch 1480000: trn: rmse = 1.10e-01, rmse_e = 1.41e-03, rmse_f = 4.98e-02, rmse_v = 1.49e-02, lr = 3.41e-06
+[2026-02-08 17:21:22,352] DEEPMD INFO    batch 1480000: val: rmse = 1.26e-01, rmse_e = 3.80e-03, rmse_f = 5.32e-02, rmse_v = 2.25e-02
+[2026-02-08 17:21:22,352] DEEPMD INFO    batch 1480000: total wall time = 519.19 s
+[2026-02-08 17:30:04,493] DEEPMD INFO    batch 1490000: trn: rmse = 9.61e-02, rmse_e = 4.03e-03, rmse_f = 3.52e-02, rmse_v = 2.57e-02, lr = 3.29e-06
+[2026-02-08 17:30:04,493] DEEPMD INFO    batch 1490000: val: rmse = 1.21e-01, rmse_e = 2.22e-03, rmse_f = 4.95e-02, rmse_v = 2.75e-02
+[2026-02-08 17:30:04,493] DEEPMD INFO    batch 1490000: total wall time = 522.14 s
+[2026-02-08 17:38:45,684] DEEPMD INFO    batch 1500000: trn: rmse = 1.11e-01, rmse_e = 2.77e-03, rmse_f = 3.70e-02, rmse_v = 3.64e-02, lr = 3.16e-06
+[2026-02-08 17:38:45,685] DEEPMD INFO    batch 1500000: val: rmse = 1.14e-01, rmse_e = 2.35e-03, rmse_f = 4.96e-02, rmse_v = 2.16e-02
+[2026-02-08 17:38:45,685] DEEPMD INFO    batch 1500000: total wall time = 521.19 s
+[2026-02-08 17:38:46,140] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 17:47:25,314] DEEPMD INFO    batch 1510000: trn: rmse = 8.98e-02, rmse_e = 2.52e-03, rmse_f = 3.58e-02, rmse_v = 2.33e-02, lr = 3.04e-06
+[2026-02-08 17:47:25,314] DEEPMD INFO    batch 1510000: val: rmse = 1.11e-01, rmse_e = 3.33e-03, rmse_f = 4.72e-02, rmse_v = 2.16e-02
+[2026-02-08 17:47:25,315] DEEPMD INFO    batch 1510000: total wall time = 519.63 s
+[2026-02-08 17:56:05,108] DEEPMD INFO    batch 1520000: trn: rmse = 1.19e-01, rmse_e = 4.78e-03, rmse_f = 4.94e-02, rmse_v = 2.72e-02, lr = 2.93e-06
+[2026-02-08 17:56:05,109] DEEPMD INFO    batch 1520000: val: rmse = 1.16e-01, rmse_e = 4.40e-03, rmse_f = 4.90e-02, rmse_v = 2.34e-02
+[2026-02-08 17:56:05,109] DEEPMD INFO    batch 1520000: total wall time = 519.79 s
+[2026-02-08 18:04:47,465] DEEPMD INFO    batch 1530000: trn: rmse = 1.01e-01, rmse_e = 2.08e-03, rmse_f = 4.75e-02, rmse_v = 1.71e-02, lr = 2.82e-06
+[2026-02-08 18:04:47,465] DEEPMD INFO    batch 1530000: val: rmse = 9.81e-02, rmse_e = 2.34e-03, rmse_f = 4.35e-02, rmse_v = 2.04e-02
+[2026-02-08 18:04:47,466] DEEPMD INFO    batch 1530000: total wall time = 522.36 s
+[2026-02-08 18:13:27,826] DEEPMD INFO    batch 1540000: trn: rmse = 8.67e-02, rmse_e = 1.40e-03, rmse_f = 3.30e-02, rmse_v = 2.66e-02, lr = 2.71e-06
+[2026-02-08 18:13:27,827] DEEPMD INFO    batch 1540000: val: rmse = 1.04e-01, rmse_e = 2.51e-03, rmse_f = 4.72e-02, rmse_v = 2.07e-02
+[2026-02-08 18:13:27,827] DEEPMD INFO    batch 1540000: total wall time = 520.36 s
+[2026-02-08 18:22:07,965] DEEPMD INFO    batch 1550000: trn: rmse = 8.93e-02, rmse_e = 2.68e-03, rmse_f = 4.10e-02, rmse_v = 1.82e-02, lr = 2.61e-06
+[2026-02-08 18:22:07,966] DEEPMD INFO    batch 1550000: val: rmse = 1.07e-01, rmse_e = 2.22e-03, rmse_f = 4.98e-02, rmse_v = 2.03e-02
+[2026-02-08 18:22:07,966] DEEPMD INFO    batch 1550000: total wall time = 520.14 s
+[2026-02-08 18:30:48,264] DEEPMD INFO    batch 1560000: trn: rmse = 1.16e-01, rmse_e = 6.91e-03, rmse_f = 4.95e-02, rmse_v = 2.29e-02, lr = 2.51e-06
+[2026-02-08 18:30:48,264] DEEPMD INFO    batch 1560000: val: rmse = 9.86e-02, rmse_e = 3.71e-03, rmse_f = 4.32e-02, rmse_v = 2.25e-02
+[2026-02-08 18:30:48,264] DEEPMD INFO    batch 1560000: total wall time = 520.30 s
+[2026-02-08 18:39:29,170] DEEPMD INFO    batch 1570000: trn: rmse = 8.98e-02, rmse_e = 2.73e-03, rmse_f = 4.17e-02, rmse_v = 1.92e-02, lr = 2.42e-06
+[2026-02-08 18:39:29,170] DEEPMD INFO    batch 1570000: val: rmse = 1.02e-01, rmse_e = 1.65e-03, rmse_f = 4.57e-02, rmse_v = 2.50e-02
+[2026-02-08 18:39:29,171] DEEPMD INFO    batch 1570000: total wall time = 520.91 s
+[2026-02-08 18:48:10,709] DEEPMD INFO    batch 1580000: trn: rmse = 7.05e-02, rmse_e = 9.28e-04, rmse_f = 3.06e-02, rmse_v = 1.95e-02, lr = 2.33e-06
+[2026-02-08 18:48:10,710] DEEPMD INFO    batch 1580000: val: rmse = 1.10e-01, rmse_e = 3.02e-03, rmse_f = 5.19e-02, rmse_v = 2.28e-02
+[2026-02-08 18:48:10,710] DEEPMD INFO    batch 1580000: total wall time = 521.54 s
+[2026-02-08 18:56:51,001] DEEPMD INFO    batch 1590000: trn: rmse = 8.12e-02, rmse_e = 6.45e-04, rmse_f = 3.51e-02, rmse_v = 2.32e-02, lr = 2.24e-06
+[2026-02-08 18:56:51,002] DEEPMD INFO    batch 1590000: val: rmse = 9.72e-02, rmse_e = 3.02e-03, rmse_f = 4.17e-02, rmse_v = 2.54e-02
+[2026-02-08 18:56:51,002] DEEPMD INFO    batch 1590000: total wall time = 520.29 s
+[2026-02-08 19:05:31,111] DEEPMD INFO    batch 1600000: trn: rmse = 1.10e-01, rmse_e = 3.31e-03, rmse_f = 5.36e-02, rmse_v = 2.29e-02, lr = 2.15e-06
+[2026-02-08 19:05:31,112] DEEPMD INFO    batch 1600000: val: rmse = 9.92e-02, rmse_e = 3.96e-03, rmse_f = 4.24e-02, rmse_v = 2.59e-02
+[2026-02-08 19:05:31,112] DEEPMD INFO    batch 1600000: total wall time = 520.11 s
+[2026-02-08 19:05:31,565] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 19:14:11,827] DEEPMD INFO    batch 1610000: trn: rmse = 7.67e-02, rmse_e = 2.00e-03, rmse_f = 3.99e-02, rmse_v = 1.30e-02, lr = 2.07e-06
+[2026-02-08 19:14:11,828] DEEPMD INFO    batch 1610000: val: rmse = 1.02e-01, rmse_e = 3.91e-03, rmse_f = 4.84e-02, rmse_v = 2.25e-02
+[2026-02-08 19:14:11,828] DEEPMD INFO    batch 1610000: total wall time = 520.72 s
+[2026-02-08 19:22:51,662] DEEPMD INFO    batch 1620000: trn: rmse = 7.47e-02, rmse_e = 3.09e-03, rmse_f = 3.94e-02, rmse_v = 9.81e-03, lr = 2.00e-06
+[2026-02-08 19:22:51,662] DEEPMD INFO    batch 1620000: val: rmse = 1.01e-01, rmse_e = 4.04e-03, rmse_f = 4.69e-02, rmse_v = 2.32e-02
+[2026-02-08 19:22:51,662] DEEPMD INFO    batch 1620000: total wall time = 519.83 s
+[2026-02-08 19:31:31,326] DEEPMD INFO    batch 1630000: trn: rmse = 9.68e-02, rmse_e = 2.25e-03, rmse_f = 4.42e-02, rmse_v = 2.67e-02, lr = 1.92e-06
+[2026-02-08 19:31:31,327] DEEPMD INFO    batch 1630000: val: rmse = 1.09e-01, rmse_e = 2.99e-03, rmse_f = 5.32e-02, rmse_v = 2.56e-02
+[2026-02-08 19:31:31,327] DEEPMD INFO    batch 1630000: total wall time = 519.66 s
+[2026-02-08 19:40:11,266] DEEPMD INFO    batch 1640000: trn: rmse = 1.22e-01, rmse_e = 5.69e-03, rmse_f = 5.85e-02, rmse_v = 2.76e-02, lr = 1.85e-06
+[2026-02-08 19:40:11,267] DEEPMD INFO    batch 1640000: val: rmse = 1.00e-01, rmse_e = 4.30e-03, rmse_f = 4.87e-02, rmse_v = 2.16e-02
+[2026-02-08 19:40:11,267] DEEPMD INFO    batch 1640000: total wall time = 519.94 s
+[2026-02-08 19:48:53,167] DEEPMD INFO    batch 1650000: trn: rmse = 8.14e-02, rmse_e = 9.29e-04, rmse_f = 4.40e-02, rmse_v = 1.59e-02, lr = 1.78e-06
+[2026-02-08 19:48:53,167] DEEPMD INFO    batch 1650000: val: rmse = 8.71e-02, rmse_e = 1.66e-03, rmse_f = 4.30e-02, rmse_v = 2.16e-02
+[2026-02-08 19:48:53,168] DEEPMD INFO    batch 1650000: total wall time = 521.90 s
+[2026-02-08 19:57:34,168] DEEPMD INFO    batch 1660000: trn: rmse = 7.14e-02, rmse_e = 9.24e-04, rmse_f = 3.88e-02, rmse_v = 1.42e-02, lr = 1.71e-06
+[2026-02-08 19:57:34,169] DEEPMD INFO    batch 1660000: val: rmse = 8.80e-02, rmse_e = 2.21e-03, rmse_f = 4.18e-02, rmse_v = 2.37e-02
+[2026-02-08 19:57:34,169] DEEPMD INFO    batch 1660000: total wall time = 521.00 s
+[2026-02-08 20:06:14,491] DEEPMD INFO    batch 1670000: trn: rmse = 1.04e-01, rmse_e = 4.30e-03, rmse_f = 4.77e-02, rmse_v = 2.88e-02, lr = 1.65e-06
+[2026-02-08 20:06:14,492] DEEPMD INFO    batch 1670000: val: rmse = 9.49e-02, rmse_e = 2.11e-03, rmse_f = 5.29e-02, rmse_v = 1.54e-02
+[2026-02-08 20:06:14,492] DEEPMD INFO    batch 1670000: total wall time = 520.32 s
+[2026-02-08 20:14:53,303] DEEPMD INFO    batch 1680000: trn: rmse = 9.75e-02, rmse_e = 4.25e-03, rmse_f = 4.31e-02, rmse_v = 2.83e-02, lr = 1.58e-06
+[2026-02-08 20:14:53,303] DEEPMD INFO    batch 1680000: val: rmse = 8.91e-02, rmse_e = 3.92e-03, rmse_f = 4.25e-02, rmse_v = 2.23e-02
+[2026-02-08 20:14:53,303] DEEPMD INFO    batch 1680000: total wall time = 518.81 s
+[2026-02-08 20:23:34,544] DEEPMD INFO    batch 1690000: trn: rmse = 7.21e-02, rmse_e = 2.04e-03, rmse_f = 4.19e-02, rmse_v = 1.09e-02, lr = 1.53e-06
+[2026-02-08 20:23:34,544] DEEPMD INFO    batch 1690000: val: rmse = 8.55e-02, rmse_e = 3.08e-03, rmse_f = 4.33e-02, rmse_v = 2.01e-02
+[2026-02-08 20:23:34,544] DEEPMD INFO    batch 1690000: total wall time = 521.24 s
+[2026-02-08 20:32:15,200] DEEPMD INFO    batch 1700000: trn: rmse = 7.94e-02, rmse_e = 2.16e-03, rmse_f = 3.36e-02, rmse_v = 2.63e-02, lr = 1.47e-06
+[2026-02-08 20:32:15,201] DEEPMD INFO    batch 1700000: val: rmse = 8.32e-02, rmse_e = 1.83e-03, rmse_f = 4.66e-02, rmse_v = 1.63e-02
+[2026-02-08 20:32:15,201] DEEPMD INFO    batch 1700000: total wall time = 520.66 s
+[2026-02-08 20:32:15,664] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 20:40:56,248] DEEPMD INFO    batch 1710000: trn: rmse = 1.01e-01, rmse_e = 4.64e-03, rmse_f = 4.05e-02, rmse_v = 3.29e-02, lr = 1.41e-06
+[2026-02-08 20:40:56,248] DEEPMD INFO    batch 1710000: val: rmse = 7.81e-02, rmse_e = 1.69e-03, rmse_f = 3.97e-02, rmse_v = 2.10e-02
+[2026-02-08 20:40:56,248] DEEPMD INFO    batch 1710000: total wall time = 521.05 s
+[2026-02-08 20:49:36,748] DEEPMD INFO    batch 1720000: trn: rmse = 8.35e-02, rmse_e = 3.48e-03, rmse_f = 4.74e-02, rmse_v = 1.50e-02, lr = 1.36e-06
+[2026-02-08 20:49:36,749] DEEPMD INFO    batch 1720000: val: rmse = 8.45e-02, rmse_e = 2.88e-03, rmse_f = 4.34e-02, rmse_v = 2.12e-02
+[2026-02-08 20:49:36,749] DEEPMD INFO    batch 1720000: total wall time = 520.50 s
+[2026-02-08 20:58:19,366] DEEPMD INFO    batch 1730000: trn: rmse = 6.29e-02, rmse_e = 6.42e-04, rmse_f = 3.32e-02, rmse_v = 1.71e-02, lr = 1.31e-06
+[2026-02-08 20:58:19,366] DEEPMD INFO    batch 1730000: val: rmse = 8.98e-02, rmse_e = 3.35e-03, rmse_f = 4.75e-02, rmse_v = 2.08e-02
+[2026-02-08 20:58:19,366] DEEPMD INFO    batch 1730000: total wall time = 522.62 s
+[2026-02-08 21:06:59,130] DEEPMD INFO    batch 1740000: trn: rmse = 8.52e-02, rmse_e = 3.74e-03, rmse_f = 3.62e-02, rmse_v = 2.75e-02, lr = 1.26e-06
+[2026-02-08 21:06:59,131] DEEPMD INFO    batch 1740000: val: rmse = 9.68e-02, rmse_e = 2.37e-03, rmse_f = 5.31e-02, rmse_v = 2.34e-02
+[2026-02-08 21:06:59,131] DEEPMD INFO    batch 1740000: total wall time = 519.77 s
+[2026-02-08 21:15:39,895] DEEPMD INFO    batch 1750000: trn: rmse = 7.90e-02, rmse_e = 2.63e-03, rmse_f = 4.57e-02, rmse_v = 1.64e-02, lr = 1.21e-06
+[2026-02-08 21:15:39,895] DEEPMD INFO    batch 1750000: val: rmse = 8.22e-02, rmse_e = 2.43e-03, rmse_f = 4.46e-02, rmse_v = 1.95e-02
+[2026-02-08 21:15:39,896] DEEPMD INFO    batch 1750000: total wall time = 520.76 s
+[2026-02-08 21:24:19,364] DEEPMD INFO    batch 1760000: trn: rmse = 8.62e-02, rmse_e = 5.36e-03, rmse_f = 4.53e-02, rmse_v = 1.83e-02, lr = 1.17e-06
+[2026-02-08 21:24:19,364] DEEPMD INFO    batch 1760000: val: rmse = 8.10e-02, rmse_e = 2.59e-03, rmse_f = 4.35e-02, rmse_v = 2.06e-02
+[2026-02-08 21:24:19,365] DEEPMD INFO    batch 1760000: total wall time = 519.47 s
+[2026-02-08 21:32:59,019] DEEPMD INFO    batch 1770000: trn: rmse = 8.13e-02, rmse_e = 6.66e-04, rmse_f = 5.03e-02, rmse_v = 1.59e-02, lr = 1.12e-06
+[2026-02-08 21:32:59,020] DEEPMD INFO    batch 1770000: val: rmse = 9.36e-02, rmse_e = 3.73e-03, rmse_f = 4.95e-02, rmse_v = 2.36e-02
+[2026-02-08 21:32:59,020] DEEPMD INFO    batch 1770000: total wall time = 519.66 s
+[2026-02-08 21:41:39,287] DEEPMD INFO    batch 1780000: trn: rmse = 7.00e-02, rmse_e = 1.54e-03, rmse_f = 3.54e-02, rmse_v = 2.14e-02, lr = 1.08e-06
+[2026-02-08 21:41:39,287] DEEPMD INFO    batch 1780000: val: rmse = 8.19e-02, rmse_e = 2.39e-03, rmse_f = 4.72e-02, rmse_v = 1.87e-02
+[2026-02-08 21:41:39,287] DEEPMD INFO    batch 1780000: total wall time = 520.27 s
+[2026-02-08 21:50:20,441] DEEPMD INFO    batch 1790000: trn: rmse = 9.77e-02, rmse_e = 2.57e-03, rmse_f = 5.46e-02, rmse_v = 2.56e-02, lr = 1.04e-06
+[2026-02-08 21:50:20,441] DEEPMD INFO    batch 1790000: val: rmse = 8.24e-02, rmse_e = 3.09e-03, rmse_f = 4.71e-02, rmse_v = 1.86e-02
+[2026-02-08 21:50:20,442] DEEPMD INFO    batch 1790000: total wall time = 521.15 s
+[2026-02-08 21:59:00,292] DEEPMD INFO    batch 1800000: trn: rmse = 7.76e-02, rmse_e = 4.22e-03, rmse_f = 4.83e-02, rmse_v = 1.02e-02, lr = 1.00e-06
+[2026-02-08 21:59:00,293] DEEPMD INFO    batch 1800000: val: rmse = 8.53e-02, rmse_e = 2.75e-03, rmse_f = 4.67e-02, rmse_v = 2.19e-02
+[2026-02-08 21:59:00,293] DEEPMD INFO    batch 1800000: total wall time = 519.85 s
+[2026-02-08 21:59:00,840] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 22:07:42,002] DEEPMD INFO    batch 1810000: trn: rmse = 5.96e-02, rmse_e = 2.41e-03, rmse_f = 3.71e-02, rmse_v = 1.10e-02, lr = 9.62e-07
+[2026-02-08 22:07:42,003] DEEPMD INFO    batch 1810000: val: rmse = 7.05e-02, rmse_e = 2.50e-03, rmse_f = 3.97e-02, rmse_v = 1.78e-02
+[2026-02-08 22:07:42,003] DEEPMD INFO    batch 1810000: total wall time = 521.71 s
+[2026-02-08 22:16:21,683] DEEPMD INFO    batch 1820000: trn: rmse = 6.29e-02, rmse_e = 2.98e-03, rmse_f = 3.55e-02, rmse_v = 1.52e-02, lr = 9.26e-07
+[2026-02-08 22:16:21,684] DEEPMD INFO    batch 1820000: val: rmse = 7.94e-02, rmse_e = 1.73e-03, rmse_f = 4.62e-02, rmse_v = 2.03e-02
+[2026-02-08 22:16:21,684] DEEPMD INFO    batch 1820000: total wall time = 519.68 s
+[2026-02-08 22:25:01,939] DEEPMD INFO    batch 1830000: trn: rmse = 8.03e-02, rmse_e = 2.17e-03, rmse_f = 5.46e-02, rmse_v = 1.11e-02, lr = 8.91e-07
+[2026-02-08 22:25:01,939] DEEPMD INFO    batch 1830000: val: rmse = 8.53e-02, rmse_e = 3.11e-03, rmse_f = 4.96e-02, rmse_v = 2.04e-02
+[2026-02-08 22:25:01,939] DEEPMD INFO    batch 1830000: total wall time = 520.26 s
+[2026-02-08 22:33:41,868] DEEPMD INFO    batch 1840000: trn: rmse = 7.47e-02, rmse_e = 2.45e-03, rmse_f = 4.47e-02, rmse_v = 1.81e-02, lr = 8.58e-07
+[2026-02-08 22:33:41,869] DEEPMD INFO    batch 1840000: val: rmse = 7.86e-02, rmse_e = 3.08e-03, rmse_f = 4.65e-02, rmse_v = 1.76e-02
+[2026-02-08 22:33:41,869] DEEPMD INFO    batch 1840000: total wall time = 519.93 s
+[2026-02-08 22:42:23,678] DEEPMD INFO    batch 1850000: trn: rmse = 8.50e-02, rmse_e = 2.34e-03, rmse_f = 5.76e-02, rmse_v = 1.37e-02, lr = 8.25e-07
+[2026-02-08 22:42:23,678] DEEPMD INFO    batch 1850000: val: rmse = 7.35e-02, rmse_e = 2.29e-03, rmse_f = 4.12e-02, rmse_v = 2.02e-02
+[2026-02-08 22:42:23,679] DEEPMD INFO    batch 1850000: total wall time = 521.81 s
+[2026-02-08 22:51:05,002] DEEPMD INFO    batch 1860000: trn: rmse = 7.01e-02, rmse_e = 4.92e-04, rmse_f = 3.57e-02, rmse_v = 2.33e-02, lr = 7.94e-07
+[2026-02-08 22:51:05,002] DEEPMD INFO    batch 1860000: val: rmse = 7.75e-02, rmse_e = 3.32e-03, rmse_f = 4.67e-02, rmse_v = 1.77e-02
+[2026-02-08 22:51:05,002] DEEPMD INFO    batch 1860000: total wall time = 521.32 s
+[2026-02-08 22:59:45,748] DEEPMD INFO    batch 1870000: trn: rmse = 7.87e-02, rmse_e = 2.05e-03, rmse_f = 4.94e-02, rmse_v = 1.87e-02, lr = 7.64e-07
+[2026-02-08 22:59:45,749] DEEPMD INFO    batch 1870000: val: rmse = 6.96e-02, rmse_e = 2.08e-03, rmse_f = 4.01e-02, rmse_v = 1.85e-02
+[2026-02-08 22:59:45,749] DEEPMD INFO    batch 1870000: total wall time = 520.75 s
+[2026-02-08 23:08:27,289] DEEPMD INFO    batch 1880000: trn: rmse = 7.40e-02, rmse_e = 2.26e-03, rmse_f = 4.94e-02, rmse_v = 1.45e-02, lr = 7.36e-07
+[2026-02-08 23:08:27,290] DEEPMD INFO    batch 1880000: val: rmse = 7.36e-02, rmse_e = 1.57e-03, rmse_f = 4.61e-02, rmse_v = 1.77e-02
+[2026-02-08 23:08:27,290] DEEPMD INFO    batch 1880000: total wall time = 521.54 s
+[2026-02-08 23:17:09,348] DEEPMD INFO    batch 1890000: trn: rmse = 6.79e-02, rmse_e = 2.22e-03, rmse_f = 4.34e-02, rmse_v = 1.55e-02, lr = 7.08e-07
+[2026-02-08 23:17:09,348] DEEPMD INFO    batch 1890000: val: rmse = 7.06e-02, rmse_e = 2.35e-03, rmse_f = 4.32e-02, rmse_v = 1.72e-02
+[2026-02-08 23:17:09,349] DEEPMD INFO    batch 1890000: total wall time = 522.06 s
+[2026-02-08 23:25:49,722] DEEPMD INFO    batch 1900000: trn: rmse = 5.91e-02, rmse_e = 1.30e-03, rmse_f = 3.76e-02, rmse_v = 1.46e-02, lr = 6.81e-07
+[2026-02-08 23:25:49,722] DEEPMD INFO    batch 1900000: val: rmse = 7.60e-02, rmse_e = 3.38e-03, rmse_f = 4.45e-02, rmse_v = 1.86e-02
+[2026-02-08 23:25:49,723] DEEPMD INFO    batch 1900000: total wall time = 520.37 s
+[2026-02-08 23:25:50,283] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-08 23:34:30,075] DEEPMD INFO    batch 1910000: trn: rmse = 8.84e-02, rmse_e = 1.60e-03, rmse_f = 5.25e-02, rmse_v = 2.56e-02, lr = 6.56e-07
+[2026-02-08 23:34:30,075] DEEPMD INFO    batch 1910000: val: rmse = 7.69e-02, rmse_e = 3.11e-03, rmse_f = 4.52e-02, rmse_v = 2.04e-02
+[2026-02-08 23:34:30,076] DEEPMD INFO    batch 1910000: total wall time = 520.35 s
+[2026-02-08 23:43:09,696] DEEPMD INFO    batch 1920000: trn: rmse = 1.04e-01, rmse_e = 3.34e-03, rmse_f = 7.31e-02, rmse_v = 1.86e-02, lr = 6.31e-07
+[2026-02-08 23:43:09,697] DEEPMD INFO    batch 1920000: val: rmse = 7.10e-02, rmse_e = 2.17e-03, rmse_f = 4.57e-02, rmse_v = 1.67e-02
+[2026-02-08 23:43:09,697] DEEPMD INFO    batch 1920000: total wall time = 519.62 s
+[2026-02-08 23:51:50,179] DEEPMD INFO    batch 1930000: trn: rmse = 6.75e-02, rmse_e = 2.46e-03, rmse_f = 4.39e-02, rmse_v = 1.56e-02, lr = 6.07e-07
+[2026-02-08 23:51:50,180] DEEPMD INFO    batch 1930000: val: rmse = 7.04e-02, rmse_e = 2.00e-03, rmse_f = 4.41e-02, rmse_v = 1.82e-02
+[2026-02-08 23:51:50,180] DEEPMD INFO    batch 1930000: total wall time = 520.48 s
+[2026-02-09 00:00:29,837] DEEPMD INFO    batch 1940000: trn: rmse = 6.85e-02, rmse_e = 1.01e-04, rmse_f = 3.82e-02, rmse_v = 2.22e-02, lr = 5.84e-07
+[2026-02-09 00:00:29,837] DEEPMD INFO    batch 1940000: val: rmse = 6.62e-02, rmse_e = 1.76e-03, rmse_f = 4.05e-02, rmse_v = 1.77e-02
+[2026-02-09 00:00:29,838] DEEPMD INFO    batch 1940000: total wall time = 519.66 s
+[2026-02-09 00:09:10,538] DEEPMD INFO    batch 1950000: trn: rmse = 8.73e-02, rmse_e = 4.68e-03, rmse_f = 4.57e-02, rmse_v = 2.63e-02, lr = 5.62e-07
+[2026-02-09 00:09:10,539] DEEPMD INFO    batch 1950000: val: rmse = 6.79e-02, rmse_e = 2.33e-03, rmse_f = 4.11e-02, rmse_v = 1.83e-02
+[2026-02-09 00:09:10,539] DEEPMD INFO    batch 1950000: total wall time = 520.70 s
+[2026-02-09 00:17:50,625] DEEPMD INFO    batch 1960000: trn: rmse = 7.02e-02, rmse_e = 1.85e-03, rmse_f = 4.87e-02, rmse_v = 1.53e-02, lr = 5.41e-07
+[2026-02-09 00:17:50,625] DEEPMD INFO    batch 1960000: val: rmse = 7.47e-02, rmse_e = 2.44e-03, rmse_f = 4.24e-02, rmse_v = 2.24e-02
+[2026-02-09 00:17:50,625] DEEPMD INFO    batch 1960000: total wall time = 520.09 s
+[2026-02-09 00:26:32,013] DEEPMD INFO    batch 1970000: trn: rmse = 7.58e-02, rmse_e = 3.69e-03, rmse_f = 4.96e-02, rmse_v = 1.68e-02, lr = 5.21e-07
+[2026-02-09 00:26:32,014] DEEPMD INFO    batch 1970000: val: rmse = 7.25e-02, rmse_e = 1.75e-03, rmse_f = 4.64e-02, rmse_v = 1.90e-02
+[2026-02-09 00:26:32,015] DEEPMD INFO    batch 1970000: total wall time = 521.39 s
+[2026-02-09 00:35:11,141] DEEPMD INFO    batch 1980000: trn: rmse = 6.18e-02, rmse_e = 1.88e-03, rmse_f = 3.77e-02, rmse_v = 1.78e-02, lr = 5.01e-07
+[2026-02-09 00:35:11,142] DEEPMD INFO    batch 1980000: val: rmse = 6.93e-02, rmse_e = 1.18e-03, rmse_f = 4.19e-02, rmse_v = 2.06e-02
+[2026-02-09 00:35:11,142] DEEPMD INFO    batch 1980000: total wall time = 519.13 s
+[2026-02-09 00:43:50,171] DEEPMD INFO    batch 1990000: trn: rmse = 6.49e-02, rmse_e = 4.44e-03, rmse_f = 4.17e-02, rmse_v = 1.20e-02, lr = 4.82e-07
+[2026-02-09 00:43:50,172] DEEPMD INFO    batch 1990000: val: rmse = 6.84e-02, rmse_e = 1.76e-03, rmse_f = 4.27e-02, rmse_v = 1.87e-02
+[2026-02-09 00:43:50,172] DEEPMD INFO    batch 1990000: total wall time = 519.03 s
+[2026-02-09 00:52:30,050] DEEPMD INFO    batch 2000000: trn: rmse = 6.90e-02, rmse_e = 3.26e-03, rmse_f = 4.29e-02, rmse_v = 1.81e-02, lr = 4.64e-07
+[2026-02-09 00:52:30,050] DEEPMD INFO    batch 2000000: val: rmse = 7.78e-02, rmse_e = 3.18e-03, rmse_f = 4.19e-02, rmse_v = 2.43e-02
+[2026-02-09 00:52:30,051] DEEPMD INFO    batch 2000000: total wall time = 519.88 s
+[2026-02-09 00:52:30,623] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 01:01:12,292] DEEPMD INFO    batch 2010000: trn: rmse = 6.19e-02, rmse_e = 1.71e-03, rmse_f = 4.56e-02, rmse_v = 1.19e-02, lr = 4.47e-07
+[2026-02-09 01:01:12,292] DEEPMD INFO    batch 2010000: val: rmse = 7.00e-02, rmse_e = 1.45e-03, rmse_f = 4.47e-02, rmse_v = 1.95e-02
+[2026-02-09 01:01:12,292] DEEPMD INFO    batch 2010000: total wall time = 522.24 s
+[2026-02-09 01:09:54,313] DEEPMD INFO    batch 2020000: trn: rmse = 7.01e-02, rmse_e = 1.17e-03, rmse_f = 3.96e-02, rmse_v = 2.33e-02, lr = 4.30e-07
+[2026-02-09 01:09:54,313] DEEPMD INFO    batch 2020000: val: rmse = 7.26e-02, rmse_e = 1.67e-03, rmse_f = 4.00e-02, rmse_v = 2.43e-02
+[2026-02-09 01:09:54,314] DEEPMD INFO    batch 2020000: total wall time = 522.02 s
+[2026-02-09 01:18:34,021] DEEPMD INFO    batch 2030000: trn: rmse = 6.86e-02, rmse_e = 1.24e-03, rmse_f = 4.38e-02, rmse_v = 2.00e-02, lr = 4.14e-07
+[2026-02-09 01:18:34,022] DEEPMD INFO    batch 2030000: val: rmse = 6.73e-02, rmse_e = 2.66e-03, rmse_f = 4.12e-02, rmse_v = 1.87e-02
+[2026-02-09 01:18:34,022] DEEPMD INFO    batch 2030000: total wall time = 519.71 s
+[2026-02-09 01:27:14,058] DEEPMD INFO    batch 2040000: trn: rmse = 8.71e-02, rmse_e = 1.18e-03, rmse_f = 6.26e-02, rmse_v = 2.07e-02, lr = 3.98e-07
+[2026-02-09 01:27:14,059] DEEPMD INFO    batch 2040000: val: rmse = 7.57e-02, rmse_e = 2.99e-03, rmse_f = 4.38e-02, rmse_v = 2.31e-02
+[2026-02-09 01:27:14,059] DEEPMD INFO    batch 2040000: total wall time = 520.04 s
+[2026-02-09 01:35:55,828] DEEPMD INFO    batch 2050000: trn: rmse = 8.32e-02, rmse_e = 4.26e-03, rmse_f = 3.95e-02, rmse_v = 2.85e-02, lr = 3.83e-07
+[2026-02-09 01:35:55,828] DEEPMD INFO    batch 2050000: val: rmse = 7.05e-02, rmse_e = 2.50e-03, rmse_f = 4.52e-02, rmse_v = 1.89e-02
+[2026-02-09 01:35:55,828] DEEPMD INFO    batch 2050000: total wall time = 521.77 s
+[2026-02-09 01:44:36,903] DEEPMD INFO    batch 2060000: trn: rmse = 6.62e-02, rmse_e = 1.80e-03, rmse_f = 4.22e-02, rmse_v = 1.94e-02, lr = 3.69e-07
+[2026-02-09 01:44:36,903] DEEPMD INFO    batch 2060000: val: rmse = 6.64e-02, rmse_e = 2.98e-03, rmse_f = 4.40e-02, rmse_v = 1.63e-02
+[2026-02-09 01:44:36,903] DEEPMD INFO    batch 2060000: total wall time = 521.08 s
+[2026-02-09 01:53:17,715] DEEPMD INFO    batch 2070000: trn: rmse = 6.71e-02, rmse_e = 2.03e-04, rmse_f = 4.13e-02, rmse_v = 2.14e-02, lr = 3.55e-07
+[2026-02-09 01:53:17,715] DEEPMD INFO    batch 2070000: val: rmse = 7.56e-02, rmse_e = 2.67e-03, rmse_f = 3.86e-02, rmse_v = 2.59e-02
+[2026-02-09 01:53:17,715] DEEPMD INFO    batch 2070000: total wall time = 520.81 s
+[2026-02-09 02:01:56,701] DEEPMD INFO    batch 2080000: trn: rmse = 6.38e-02, rmse_e = 3.85e-03, rmse_f = 3.86e-02, rmse_v = 1.69e-02, lr = 3.41e-07
+[2026-02-09 02:01:56,701] DEEPMD INFO    batch 2080000: val: rmse = 6.69e-02, rmse_e = 1.73e-03, rmse_f = 4.30e-02, rmse_v = 1.92e-02
+[2026-02-09 02:01:56,702] DEEPMD INFO    batch 2080000: total wall time = 518.99 s
+[2026-02-09 02:10:38,401] DEEPMD INFO    batch 2090000: trn: rmse = 6.22e-02, rmse_e = 5.14e-04, rmse_f = 4.02e-02, rmse_v = 1.89e-02, lr = 3.29e-07
+[2026-02-09 02:10:38,402] DEEPMD INFO    batch 2090000: val: rmse = 6.74e-02, rmse_e = 1.65e-03, rmse_f = 4.38e-02, rmse_v = 1.93e-02
+[2026-02-09 02:10:38,402] DEEPMD INFO    batch 2090000: total wall time = 521.70 s
+[2026-02-09 02:19:17,915] DEEPMD INFO    batch 2100000: trn: rmse = 6.83e-02, rmse_e = 1.63e-03, rmse_f = 3.55e-02, rmse_v = 2.45e-02, lr = 3.16e-07
+[2026-02-09 02:19:17,915] DEEPMD INFO    batch 2100000: val: rmse = 6.78e-02, rmse_e = 1.72e-03, rmse_f = 4.50e-02, rmse_v = 1.89e-02
+[2026-02-09 02:19:17,916] DEEPMD INFO    batch 2100000: total wall time = 519.51 s
+[2026-02-09 02:19:18,485] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 02:27:58,615] DEEPMD INFO    batch 2110000: trn: rmse = 7.16e-02, rmse_e = 3.27e-03, rmse_f = 4.65e-02, rmse_v = 1.94e-02, lr = 3.04e-07
+[2026-02-09 02:27:58,615] DEEPMD INFO    batch 2110000: val: rmse = 7.49e-02, rmse_e = 3.05e-03, rmse_f = 4.89e-02, rmse_v = 2.01e-02
+[2026-02-09 02:27:58,615] DEEPMD INFO    batch 2110000: total wall time = 520.70 s
+[2026-02-09 02:36:38,572] DEEPMD INFO    batch 2120000: trn: rmse = 6.66e-02, rmse_e = 1.80e-03, rmse_f = 4.55e-02, rmse_v = 1.83e-02, lr = 2.93e-07
+[2026-02-09 02:36:38,572] DEEPMD INFO    batch 2120000: val: rmse = 6.87e-02, rmse_e = 2.83e-03, rmse_f = 4.48e-02, rmse_v = 1.85e-02
+[2026-02-09 02:36:38,572] DEEPMD INFO    batch 2120000: total wall time = 519.96 s
+[2026-02-09 02:45:17,937] DEEPMD INFO    batch 2130000: trn: rmse = 7.31e-02, rmse_e = 3.04e-03, rmse_f = 5.03e-02, rmse_v = 1.86e-02, lr = 2.82e-07
+[2026-02-09 02:45:17,938] DEEPMD INFO    batch 2130000: val: rmse = 6.63e-02, rmse_e = 1.61e-03, rmse_f = 4.45e-02, rmse_v = 1.88e-02
+[2026-02-09 02:45:17,938] DEEPMD INFO    batch 2130000: total wall time = 519.37 s
+[2026-02-09 02:53:58,286] DEEPMD INFO    batch 2140000: trn: rmse = 5.93e-02, rmse_e = 2.98e-03, rmse_f = 3.91e-02, rmse_v = 1.54e-02, lr = 2.71e-07
+[2026-02-09 02:53:58,286] DEEPMD INFO    batch 2140000: val: rmse = 7.18e-02, rmse_e = 2.11e-03, rmse_f = 4.43e-02, rmse_v = 2.23e-02
+[2026-02-09 02:53:58,287] DEEPMD INFO    batch 2140000: total wall time = 520.35 s
+[2026-02-09 03:02:38,084] DEEPMD INFO    batch 2150000: trn: rmse = 7.22e-02, rmse_e = 3.76e-03, rmse_f = 4.20e-02, rmse_v = 2.20e-02, lr = 2.61e-07
+[2026-02-09 03:02:38,084] DEEPMD INFO    batch 2150000: val: rmse = 6.65e-02, rmse_e = 2.54e-03, rmse_f = 4.35e-02, rmse_v = 1.83e-02
+[2026-02-09 03:02:38,084] DEEPMD INFO    batch 2150000: total wall time = 519.80 s
+[2026-02-09 03:11:17,693] DEEPMD INFO    batch 2160000: trn: rmse = 6.04e-02, rmse_e = 1.72e-03, rmse_f = 4.22e-02, rmse_v = 1.63e-02, lr = 2.51e-07
+[2026-02-09 03:11:17,694] DEEPMD INFO    batch 2160000: val: rmse = 6.44e-02, rmse_e = 2.10e-03, rmse_f = 4.12e-02, rmse_v = 1.92e-02
+[2026-02-09 03:11:17,694] DEEPMD INFO    batch 2160000: total wall time = 519.61 s
+[2026-02-09 03:19:59,386] DEEPMD INFO    batch 2170000: trn: rmse = 6.70e-02, rmse_e = 2.95e-03, rmse_f = 4.09e-02, rmse_v = 2.04e-02, lr = 2.42e-07
+[2026-02-09 03:19:59,387] DEEPMD INFO    batch 2170000: val: rmse = 7.34e-02, rmse_e = 2.61e-03, rmse_f = 4.56e-02, rmse_v = 2.23e-02
+[2026-02-09 03:19:59,387] DEEPMD INFO    batch 2170000: total wall time = 521.69 s
+[2026-02-09 03:28:40,791] DEEPMD INFO    batch 2180000: trn: rmse = 6.96e-02, rmse_e = 1.01e-03, rmse_f = 4.96e-02, rmse_v = 1.92e-02, lr = 2.33e-07
+[2026-02-09 03:28:40,792] DEEPMD INFO    batch 2180000: val: rmse = 6.51e-02, rmse_e = 2.82e-03, rmse_f = 4.30e-02, rmse_v = 1.73e-02
+[2026-02-09 03:28:40,792] DEEPMD INFO    batch 2180000: total wall time = 521.40 s
+[2026-02-09 03:37:20,547] DEEPMD INFO    batch 2190000: trn: rmse = 7.23e-02, rmse_e = 2.16e-03, rmse_f = 4.51e-02, rmse_v = 2.29e-02, lr = 2.24e-07
+[2026-02-09 03:37:20,547] DEEPMD INFO    batch 2190000: val: rmse = 7.09e-02, rmse_e = 3.10e-03, rmse_f = 4.71e-02, rmse_v = 1.86e-02
+[2026-02-09 03:37:20,547] DEEPMD INFO    batch 2190000: total wall time = 519.76 s
+[2026-02-09 03:45:59,975] DEEPMD INFO    batch 2200000: trn: rmse = 7.49e-02, rmse_e = 2.66e-03, rmse_f = 5.00e-02, rmse_v = 2.16e-02, lr = 2.15e-07
+[2026-02-09 03:45:59,975] DEEPMD INFO    batch 2200000: val: rmse = 7.44e-02, rmse_e = 2.23e-03, rmse_f = 4.72e-02, rmse_v = 2.22e-02
+[2026-02-09 03:45:59,976] DEEPMD INFO    batch 2200000: total wall time = 519.43 s
+[2026-02-09 03:46:00,464] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 03:54:39,900] DEEPMD INFO    batch 2210000: trn: rmse = 5.78e-02, rmse_e = 1.72e-03, rmse_f = 3.77e-02, rmse_v = 1.76e-02, lr = 2.07e-07
+[2026-02-09 03:54:39,901] DEEPMD INFO    batch 2210000: val: rmse = 7.13e-02, rmse_e = 3.43e-03, rmse_f = 4.13e-02, rmse_v = 2.24e-02
+[2026-02-09 03:54:39,901] DEEPMD INFO    batch 2210000: total wall time = 519.93 s
+[2026-02-09 04:03:19,799] DEEPMD INFO    batch 2220000: trn: rmse = 7.29e-02, rmse_e = 2.35e-03, rmse_f = 4.34e-02, rmse_v = 2.41e-02, lr = 2.00e-07
+[2026-02-09 04:03:19,800] DEEPMD INFO    batch 2220000: val: rmse = 6.71e-02, rmse_e = 2.66e-03, rmse_f = 4.19e-02, rmse_v = 2.01e-02
+[2026-02-09 04:03:19,800] DEEPMD INFO    batch 2220000: total wall time = 519.90 s
+[2026-02-09 04:11:59,789] DEEPMD INFO    batch 2230000: trn: rmse = 7.99e-02, rmse_e = 2.46e-03, rmse_f = 4.80e-02, rmse_v = 2.64e-02, lr = 1.92e-07
+[2026-02-09 04:11:59,790] DEEPMD INFO    batch 2230000: val: rmse = 6.82e-02, rmse_e = 2.58e-03, rmse_f = 3.92e-02, rmse_v = 2.26e-02
+[2026-02-09 04:11:59,790] DEEPMD INFO    batch 2230000: total wall time = 519.99 s
+[2026-02-09 04:20:39,320] DEEPMD INFO    batch 2240000: trn: rmse = 5.86e-02, rmse_e = 2.67e-03, rmse_f = 3.88e-02, rmse_v = 1.65e-02, lr = 1.85e-07
+[2026-02-09 04:20:39,321] DEEPMD INFO    batch 2240000: val: rmse = 6.94e-02, rmse_e = 2.34e-03, rmse_f = 4.17e-02, rmse_v = 2.20e-02
+[2026-02-09 04:20:39,321] DEEPMD INFO    batch 2240000: total wall time = 519.53 s
+[2026-02-09 04:29:20,290] DEEPMD INFO    batch 2250000: trn: rmse = 5.45e-02, rmse_e = 2.66e-03, rmse_f = 4.12e-02, rmse_v = 1.15e-02, lr = 1.78e-07
+[2026-02-09 04:29:20,291] DEEPMD INFO    batch 2250000: val: rmse = 7.07e-02, rmse_e = 2.25e-03, rmse_f = 4.57e-02, rmse_v = 2.12e-02
+[2026-02-09 04:29:20,291] DEEPMD INFO    batch 2250000: total wall time = 520.97 s
+[2026-02-09 04:38:00,663] DEEPMD INFO    batch 2260000: trn: rmse = 6.34e-02, rmse_e = 1.78e-03, rmse_f = 5.06e-02, rmse_v = 1.35e-02, lr = 1.71e-07
+[2026-02-09 04:38:00,663] DEEPMD INFO    batch 2260000: val: rmse = 6.71e-02, rmse_e = 3.06e-03, rmse_f = 3.81e-02, rmse_v = 2.11e-02
+[2026-02-09 04:38:00,663] DEEPMD INFO    batch 2260000: total wall time = 520.37 s
+[2026-02-09 04:46:39,940] DEEPMD INFO    batch 2270000: trn: rmse = 6.18e-02, rmse_e = 3.34e-03, rmse_f = 4.18e-02, rmse_v = 1.62e-02, lr = 1.65e-07
+[2026-02-09 04:46:39,941] DEEPMD INFO    batch 2270000: val: rmse = 6.45e-02, rmse_e = 2.54e-03, rmse_f = 4.10e-02, rmse_v = 1.93e-02
+[2026-02-09 04:46:39,941] DEEPMD INFO    batch 2270000: total wall time = 519.28 s
+[2026-02-09 04:55:18,178] DEEPMD INFO    batch 2280000: trn: rmse = 6.10e-02, rmse_e = 1.36e-03, rmse_f = 4.18e-02, rmse_v = 1.83e-02, lr = 1.58e-07
+[2026-02-09 04:55:18,179] DEEPMD INFO    batch 2280000: val: rmse = 6.58e-02, rmse_e = 3.24e-03, rmse_f = 4.17e-02, rmse_v = 1.87e-02
+[2026-02-09 04:55:18,179] DEEPMD INFO    batch 2280000: total wall time = 518.24 s
+[2026-02-09 05:03:58,015] DEEPMD INFO    batch 2290000: trn: rmse = 8.18e-02, rmse_e = 4.71e-03, rmse_f = 4.04e-02, rmse_v = 2.79e-02, lr = 1.53e-07
+[2026-02-09 05:03:58,015] DEEPMD INFO    batch 2290000: val: rmse = 6.00e-02, rmse_e = 2.00e-03, rmse_f = 3.91e-02, rmse_v = 1.79e-02
+[2026-02-09 05:03:58,015] DEEPMD INFO    batch 2290000: total wall time = 519.84 s
+[2026-02-09 05:12:38,026] DEEPMD INFO    batch 2300000: trn: rmse = 6.16e-02, rmse_e = 2.26e-03, rmse_f = 4.79e-02, rmse_v = 1.38e-02, lr = 1.47e-07
+[2026-02-09 05:12:38,027] DEEPMD INFO    batch 2300000: val: rmse = 6.71e-02, rmse_e = 2.93e-03, rmse_f = 4.38e-02, rmse_v = 1.89e-02
+[2026-02-09 05:12:38,027] DEEPMD INFO    batch 2300000: total wall time = 520.01 s
+[2026-02-09 05:12:38,526] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 05:21:18,730] DEEPMD INFO    batch 2310000: trn: rmse = 6.99e-02, rmse_e = 4.21e-03, rmse_f = 4.17e-02, rmse_v = 2.07e-02, lr = 1.41e-07
+[2026-02-09 05:21:18,730] DEEPMD INFO    batch 2310000: val: rmse = 7.19e-02, rmse_e = 2.97e-03, rmse_f = 4.40e-02, rmse_v = 2.16e-02
+[2026-02-09 05:21:18,730] DEEPMD INFO    batch 2310000: total wall time = 520.70 s
+[2026-02-09 05:29:59,263] DEEPMD INFO    batch 2320000: trn: rmse = 5.66e-02, rmse_e = 2.41e-03, rmse_f = 4.33e-02, rmse_v = 1.28e-02, lr = 1.36e-07
+[2026-02-09 05:29:59,263] DEEPMD INFO    batch 2320000: val: rmse = 6.84e-02, rmse_e = 2.76e-03, rmse_f = 4.36e-02, rmse_v = 2.02e-02
+[2026-02-09 05:29:59,263] DEEPMD INFO    batch 2320000: total wall time = 520.53 s
+[2026-02-09 05:38:39,696] DEEPMD INFO    batch 2330000: trn: rmse = 7.65e-02, rmse_e = 2.17e-03, rmse_f = 6.47e-02, rmse_v = 1.36e-02, lr = 1.31e-07
+[2026-02-09 05:38:39,697] DEEPMD INFO    batch 2330000: val: rmse = 6.17e-02, rmse_e = 1.90e-03, rmse_f = 4.30e-02, rmse_v = 1.75e-02
+[2026-02-09 05:38:39,697] DEEPMD INFO    batch 2330000: total wall time = 520.43 s
+[2026-02-09 05:47:20,390] DEEPMD INFO    batch 2340000: trn: rmse = 5.05e-02, rmse_e = 1.06e-03, rmse_f = 3.94e-02, rmse_v = 1.25e-02, lr = 1.26e-07
+[2026-02-09 05:47:20,390] DEEPMD INFO    batch 2340000: val: rmse = 7.07e-02, rmse_e = 2.94e-03, rmse_f = 4.72e-02, rmse_v = 1.99e-02
+[2026-02-09 05:47:20,390] DEEPMD INFO    batch 2340000: total wall time = 520.69 s
+[2026-02-09 05:55:58,685] DEEPMD INFO    batch 2350000: trn: rmse = 6.08e-02, rmse_e = 1.03e-03, rmse_f = 4.44e-02, rmse_v = 1.73e-02, lr = 1.21e-07
+[2026-02-09 05:55:58,685] DEEPMD INFO    batch 2350000: val: rmse = 6.33e-02, rmse_e = 2.30e-03, rmse_f = 4.22e-02, rmse_v = 1.82e-02
+[2026-02-09 05:55:58,685] DEEPMD INFO    batch 2350000: total wall time = 518.30 s
+[2026-02-09 06:04:37,747] DEEPMD INFO    batch 2360000: trn: rmse = 5.79e-02, rmse_e = 3.85e-03, rmse_f = 4.05e-02, rmse_v = 1.30e-02, lr = 1.17e-07
+[2026-02-09 06:04:37,747] DEEPMD INFO    batch 2360000: val: rmse = 6.85e-02, rmse_e = 2.48e-03, rmse_f = 4.79e-02, rmse_v = 1.89e-02
+[2026-02-09 06:04:37,747] DEEPMD INFO    batch 2360000: total wall time = 519.06 s
+[2026-02-09 06:13:18,866] DEEPMD INFO    batch 2370000: trn: rmse = 7.95e-02, rmse_e = 3.94e-03, rmse_f = 5.36e-02, rmse_v = 2.23e-02, lr = 1.12e-07
+[2026-02-09 06:13:18,867] DEEPMD INFO    batch 2370000: val: rmse = 6.89e-02, rmse_e = 2.76e-03, rmse_f = 4.61e-02, rmse_v = 1.96e-02
+[2026-02-09 06:13:18,867] DEEPMD INFO    batch 2370000: total wall time = 521.12 s
+[2026-02-09 06:21:59,906] DEEPMD INFO    batch 2380000: trn: rmse = 7.34e-02, rmse_e = 2.58e-03, rmse_f = 4.51e-02, rmse_v = 2.42e-02, lr = 1.08e-07
+[2026-02-09 06:21:59,906] DEEPMD INFO    batch 2380000: val: rmse = 6.56e-02, rmse_e = 2.68e-03, rmse_f = 4.19e-02, rmse_v = 1.99e-02
+[2026-02-09 06:21:59,907] DEEPMD INFO    batch 2380000: total wall time = 521.04 s
+[2026-02-09 06:30:39,844] DEEPMD INFO    batch 2390000: trn: rmse = 7.22e-02, rmse_e = 1.32e-03, rmse_f = 3.76e-02, rmse_v = 2.73e-02, lr = 1.04e-07
+[2026-02-09 06:30:39,844] DEEPMD INFO    batch 2390000: val: rmse = 6.38e-02, rmse_e = 2.41e-03, rmse_f = 4.51e-02, rmse_v = 1.78e-02
+[2026-02-09 06:30:39,845] DEEPMD INFO    batch 2390000: total wall time = 519.94 s
+[2026-02-09 06:39:18,991] DEEPMD INFO    batch 2400000: trn: rmse = 5.69e-02, rmse_e = 1.41e-03, rmse_f = 3.96e-02, rmse_v = 1.72e-02, lr = 1.00e-07
+[2026-02-09 06:39:18,992] DEEPMD INFO    batch 2400000: val: rmse = 6.66e-02, rmse_e = 2.38e-03, rmse_f = 4.62e-02, rmse_v = 1.86e-02
+[2026-02-09 06:39:18,992] DEEPMD INFO    batch 2400000: total wall time = 519.15 s
+[2026-02-09 06:39:19,429] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 06:48:00,629] DEEPMD INFO    batch 2410000: trn: rmse = 6.04e-02, rmse_e = 2.07e-03, rmse_f = 4.24e-02, rmse_v = 1.75e-02, lr = 9.62e-08
+[2026-02-09 06:48:00,630] DEEPMD INFO    batch 2410000: val: rmse = 6.55e-02, rmse_e = 2.26e-03, rmse_f = 4.30e-02, rmse_v = 1.96e-02
+[2026-02-09 06:48:00,630] DEEPMD INFO    batch 2410000: total wall time = 521.64 s
+[2026-02-09 06:56:40,895] DEEPMD INFO    batch 2420000: trn: rmse = 6.75e-02, rmse_e = 6.50e-04, rmse_f = 4.22e-02, rmse_v = 2.33e-02, lr = 9.26e-08
+[2026-02-09 06:56:40,896] DEEPMD INFO    batch 2420000: val: rmse = 5.95e-02, rmse_e = 2.37e-03, rmse_f = 4.23e-02, rmse_v = 1.58e-02
+[2026-02-09 06:56:40,896] DEEPMD INFO    batch 2420000: total wall time = 520.27 s
+[2026-02-09 07:05:20,039] DEEPMD INFO    batch 2430000: trn: rmse = 7.48e-02, rmse_e = 2.30e-03, rmse_f = 4.47e-02, rmse_v = 2.57e-02, lr = 8.91e-08
+[2026-02-09 07:05:20,040] DEEPMD INFO    batch 2430000: val: rmse = 6.51e-02, rmse_e = 2.47e-03, rmse_f = 4.60e-02, rmse_v = 1.77e-02
+[2026-02-09 07:05:20,040] DEEPMD INFO    batch 2430000: total wall time = 519.14 s
+[2026-02-09 07:13:59,117] DEEPMD INFO    batch 2440000: trn: rmse = 5.90e-02, rmse_e = 4.38e-03, rmse_f = 3.72e-02, rmse_v = 1.48e-02, lr = 8.58e-08
+[2026-02-09 07:13:59,118] DEEPMD INFO    batch 2440000: val: rmse = 6.94e-02, rmse_e = 2.37e-03, rmse_f = 4.31e-02, rmse_v = 2.16e-02
+[2026-02-09 07:13:59,118] DEEPMD INFO    batch 2440000: total wall time = 519.08 s
+[2026-02-09 07:22:41,144] DEEPMD INFO    batch 2450000: trn: rmse = 6.46e-02, rmse_e = 2.32e-03, rmse_f = 4.95e-02, rmse_v = 1.62e-02, lr = 8.25e-08
+[2026-02-09 07:22:41,145] DEEPMD INFO    batch 2450000: val: rmse = 6.36e-02, rmse_e = 2.60e-03, rmse_f = 4.10e-02, rmse_v = 1.96e-02
+[2026-02-09 07:22:41,145] DEEPMD INFO    batch 2450000: total wall time = 522.03 s
+[2026-02-09 07:31:20,118] DEEPMD INFO    batch 2460000: trn: rmse = 7.68e-02, rmse_e = 1.36e-03, rmse_f = 4.02e-02, rmse_v = 2.91e-02, lr = 7.94e-08
+[2026-02-09 07:31:20,118] DEEPMD INFO    batch 2460000: val: rmse = 7.11e-02, rmse_e = 2.13e-03, rmse_f = 4.64e-02, rmse_v = 2.20e-02
+[2026-02-09 07:31:20,118] DEEPMD INFO    batch 2460000: total wall time = 518.97 s
+[2026-02-09 07:40:00,255] DEEPMD INFO    batch 2470000: trn: rmse = 7.07e-02, rmse_e = 1.57e-03, rmse_f = 5.18e-02, rmse_v = 2.04e-02, lr = 7.64e-08
+[2026-02-09 07:40:00,256] DEEPMD INFO    batch 2470000: val: rmse = 7.11e-02, rmse_e = 2.23e-03, rmse_f = 4.69e-02, rmse_v = 2.21e-02
+[2026-02-09 07:40:00,256] DEEPMD INFO    batch 2470000: total wall time = 520.14 s
+[2026-02-09 07:48:39,959] DEEPMD INFO    batch 2480000: trn: rmse = 6.43e-02, rmse_e = 4.68e-03, rmse_f = 4.71e-02, rmse_v = 1.21e-02, lr = 7.36e-08
+[2026-02-09 07:48:39,960] DEEPMD INFO    batch 2480000: val: rmse = 6.11e-02, rmse_e = 7.62e-04, rmse_f = 4.54e-02, rmse_v = 1.70e-02
+[2026-02-09 07:48:39,960] DEEPMD INFO    batch 2480000: total wall time = 519.70 s
+[2026-02-09 07:57:19,996] DEEPMD INFO    batch 2490000: trn: rmse = 6.54e-02, rmse_e = 1.40e-03, rmse_f = 4.88e-02, rmse_v = 1.84e-02, lr = 7.08e-08
+[2026-02-09 07:57:19,997] DEEPMD INFO    batch 2490000: val: rmse = 6.82e-02, rmse_e = 2.94e-03, rmse_f = 4.46e-02, rmse_v = 2.06e-02
+[2026-02-09 07:57:19,997] DEEPMD INFO    batch 2490000: total wall time = 520.04 s
+[2026-02-09 08:05:59,055] DEEPMD INFO    batch 2500000: trn: rmse = 6.42e-02, rmse_e = 2.78e-03, rmse_f = 3.66e-02, rmse_v = 2.20e-02, lr = 6.81e-08
+[2026-02-09 08:05:59,056] DEEPMD INFO    batch 2500000: val: rmse = 6.49e-02, rmse_e = 2.15e-03, rmse_f = 4.71e-02, rmse_v = 1.80e-02
+[2026-02-09 08:05:59,056] DEEPMD INFO    batch 2500000: total wall time = 519.06 s
+[2026-02-09 08:05:59,533] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 08:14:38,684] DEEPMD INFO    batch 2510000: trn: rmse = 5.96e-02, rmse_e = 2.72e-03, rmse_f = 4.66e-02, rmse_v = 1.36e-02, lr = 6.56e-08
+[2026-02-09 08:14:38,685] DEEPMD INFO    batch 2510000: val: rmse = 6.92e-02, rmse_e = 3.01e-03, rmse_f = 3.97e-02, rmse_v = 2.32e-02
+[2026-02-09 08:14:38,685] DEEPMD INFO    batch 2510000: total wall time = 519.63 s
+[2026-02-09 08:23:18,689] DEEPMD INFO    batch 2520000: trn: rmse = 5.73e-02, rmse_e = 5.55e-04, rmse_f = 3.78e-02, rmse_v = 1.91e-02, lr = 6.31e-08
+[2026-02-09 08:23:18,690] DEEPMD INFO    batch 2520000: val: rmse = 6.32e-02, rmse_e = 2.23e-03, rmse_f = 4.42e-02, rmse_v = 1.84e-02
+[2026-02-09 08:23:18,690] DEEPMD INFO    batch 2520000: total wall time = 520.00 s
+[2026-02-09 08:31:59,557] DEEPMD INFO    batch 2530000: trn: rmse = 6.31e-02, rmse_e = 2.83e-03, rmse_f = 4.54e-02, rmse_v = 1.71e-02, lr = 6.07e-08
+[2026-02-09 08:31:59,558] DEEPMD INFO    batch 2530000: val: rmse = 5.97e-02, rmse_e = 1.49e-03, rmse_f = 4.47e-02, rmse_v = 1.64e-02
+[2026-02-09 08:31:59,558] DEEPMD INFO    batch 2530000: total wall time = 520.87 s
+[2026-02-09 08:40:39,465] DEEPMD INFO    batch 2540000: trn: rmse = 5.71e-02, rmse_e = 8.52e-04, rmse_f = 4.35e-02, rmse_v = 1.59e-02, lr = 5.84e-08
+[2026-02-09 08:40:39,466] DEEPMD INFO    batch 2540000: val: rmse = 7.03e-02, rmse_e = 1.76e-03, rmse_f = 4.94e-02, rmse_v = 2.12e-02
+[2026-02-09 08:40:39,466] DEEPMD INFO    batch 2540000: total wall time = 519.91 s
+[2026-02-09 08:49:18,541] DEEPMD INFO    batch 2550000: trn: rmse = 6.80e-02, rmse_e = 3.70e-03, rmse_f = 4.51e-02, rmse_v = 1.95e-02, lr = 5.62e-08
+[2026-02-09 08:49:18,542] DEEPMD INFO    batch 2550000: val: rmse = 6.68e-02, rmse_e = 2.07e-03, rmse_f = 4.77e-02, rmse_v = 1.87e-02
+[2026-02-09 08:49:18,542] DEEPMD INFO    batch 2550000: total wall time = 519.08 s
+[2026-02-09 08:57:57,859] DEEPMD INFO    batch 2560000: trn: rmse = 7.03e-02, rmse_e = 3.17e-03, rmse_f = 5.11e-02, rmse_v = 1.88e-02, lr = 5.41e-08
+[2026-02-09 08:57:57,860] DEEPMD INFO    batch 2560000: val: rmse = 5.82e-02, rmse_e = 1.52e-03, rmse_f = 3.99e-02, rmse_v = 1.79e-02
+[2026-02-09 08:57:57,860] DEEPMD INFO    batch 2560000: total wall time = 519.32 s
+[2026-02-09 09:06:38,250] DEEPMD INFO    batch 2570000: trn: rmse = 5.37e-02, rmse_e = 1.42e-03, rmse_f = 3.56e-02, rmse_v = 1.74e-02, lr = 5.21e-08
+[2026-02-09 09:06:38,250] DEEPMD INFO    batch 2570000: val: rmse = 6.48e-02, rmse_e = 2.50e-03, rmse_f = 4.03e-02, rmse_v = 2.08e-02
+[2026-02-09 09:06:38,250] DEEPMD INFO    batch 2570000: total wall time = 520.39 s
+[2026-02-09 09:15:18,530] DEEPMD INFO    batch 2580000: trn: rmse = 6.56e-02, rmse_e = 1.85e-03, rmse_f = 4.56e-02, rmse_v = 2.02e-02, lr = 5.01e-08
+[2026-02-09 09:15:18,531] DEEPMD INFO    batch 2580000: val: rmse = 5.79e-02, rmse_e = 1.86e-03, rmse_f = 4.25e-02, rmse_v = 1.59e-02
+[2026-02-09 09:15:18,531] DEEPMD INFO    batch 2580000: total wall time = 520.28 s
+[2026-02-09 09:23:58,624] DEEPMD INFO    batch 2590000: trn: rmse = 6.37e-02, rmse_e = 1.82e-03, rmse_f = 4.05e-02, rmse_v = 2.13e-02, lr = 4.82e-08
+[2026-02-09 09:23:58,624] DEEPMD INFO    batch 2590000: val: rmse = 6.40e-02, rmse_e = 1.92e-03, rmse_f = 4.52e-02, rmse_v = 1.87e-02
+[2026-02-09 09:23:58,624] DEEPMD INFO    batch 2590000: total wall time = 520.09 s
+[2026-02-09 09:32:39,353] DEEPMD INFO    batch 2600000: trn: rmse = 6.36e-02, rmse_e = 3.34e-03, rmse_f = 4.17e-02, rmse_v = 1.88e-02, lr = 4.64e-08
+[2026-02-09 09:32:39,354] DEEPMD INFO    batch 2600000: val: rmse = 6.26e-02, rmse_e = 2.77e-03, rmse_f = 4.31e-02, rmse_v = 1.77e-02
+[2026-02-09 09:32:39,354] DEEPMD INFO    batch 2600000: total wall time = 520.73 s
+[2026-02-09 09:32:39,813] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 09:41:20,291] DEEPMD INFO    batch 2610000: trn: rmse = 6.22e-02, rmse_e = 4.26e-03, rmse_f = 4.64e-02, rmse_v = 1.25e-02, lr = 4.47e-08
+[2026-02-09 09:41:20,292] DEEPMD INFO    batch 2610000: val: rmse = 6.19e-02, rmse_e = 1.89e-03, rmse_f = 4.66e-02, rmse_v = 1.69e-02
+[2026-02-09 09:41:20,292] DEEPMD INFO    batch 2610000: total wall time = 520.94 s
+[2026-02-09 09:49:59,953] DEEPMD INFO    batch 2620000: trn: rmse = 7.47e-02, rmse_e = 3.64e-03, rmse_f = 3.74e-02, rmse_v = 2.69e-02, lr = 4.30e-08
+[2026-02-09 09:49:59,953] DEEPMD INFO    batch 2620000: val: rmse = 6.09e-02, rmse_e = 2.45e-03, rmse_f = 4.35e-02, rmse_v = 1.68e-02
+[2026-02-09 09:49:59,954] DEEPMD INFO    batch 2620000: total wall time = 519.66 s
+[2026-02-09 09:58:40,883] DEEPMD INFO    batch 2630000: trn: rmse = 7.19e-02, rmse_e = 1.91e-03, rmse_f = 4.96e-02, rmse_v = 2.25e-02, lr = 4.14e-08
+[2026-02-09 09:58:40,884] DEEPMD INFO    batch 2630000: val: rmse = 6.70e-02, rmse_e = 1.89e-03, rmse_f = 4.42e-02, rmse_v = 2.11e-02
+[2026-02-09 09:58:40,884] DEEPMD INFO    batch 2630000: total wall time = 520.93 s
+[2026-02-09 10:07:20,310] DEEPMD INFO    batch 2640000: trn: rmse = 5.57e-02, rmse_e = 9.37e-04, rmse_f = 4.39e-02, rmse_v = 1.48e-02, lr = 3.98e-08
+[2026-02-09 10:07:20,311] DEEPMD INFO    batch 2640000: val: rmse = 6.76e-02, rmse_e = 2.27e-03, rmse_f = 4.12e-02, rmse_v = 2.26e-02
+[2026-02-09 10:07:20,311] DEEPMD INFO    batch 2640000: total wall time = 519.43 s
+[2026-02-09 10:16:00,605] DEEPMD INFO    batch 2650000: trn: rmse = 6.27e-02, rmse_e = 8.21e-04, rmse_f = 4.48e-02, rmse_v = 1.94e-02, lr = 3.83e-08
+[2026-02-09 10:16:00,605] DEEPMD INFO    batch 2650000: val: rmse = 5.83e-02, rmse_e = 2.18e-03, rmse_f = 4.39e-02, rmse_v = 1.51e-02
+[2026-02-09 10:16:00,606] DEEPMD INFO    batch 2650000: total wall time = 520.29 s
+[2026-02-09 10:24:40,491] DEEPMD INFO    batch 2660000: trn: rmse = 6.12e-02, rmse_e = 3.07e-03, rmse_f = 4.20e-02, rmse_v = 1.75e-02, lr = 3.69e-08
+[2026-02-09 10:24:40,491] DEEPMD INFO    batch 2660000: val: rmse = 6.42e-02, rmse_e = 1.53e-03, rmse_f = 4.70e-02, rmse_v = 1.78e-02
+[2026-02-09 10:24:40,491] DEEPMD INFO    batch 2660000: total wall time = 519.89 s
+[2026-02-09 10:33:20,558] DEEPMD INFO    batch 2670000: trn: rmse = 7.54e-02, rmse_e = 2.38e-03, rmse_f = 4.98e-02, rmse_v = 2.43e-02, lr = 3.55e-08
+[2026-02-09 10:33:20,558] DEEPMD INFO    batch 2670000: val: rmse = 6.39e-02, rmse_e = 2.40e-03, rmse_f = 4.42e-02, rmse_v = 1.87e-02
+[2026-02-09 10:33:20,558] DEEPMD INFO    batch 2670000: total wall time = 520.07 s
+[2026-02-09 10:42:01,036] DEEPMD INFO    batch 2680000: trn: rmse = 6.72e-02, rmse_e = 1.88e-03, rmse_f = 5.57e-02, rmse_v = 1.54e-02, lr = 3.41e-08
+[2026-02-09 10:42:01,037] DEEPMD INFO    batch 2680000: val: rmse = 6.48e-02, rmse_e = 1.80e-03, rmse_f = 4.49e-02, rmse_v = 1.99e-02
+[2026-02-09 10:42:01,037] DEEPMD INFO    batch 2680000: total wall time = 520.48 s
+[2026-02-09 10:50:42,948] DEEPMD INFO    batch 2690000: trn: rmse = 7.26e-02, rmse_e = 1.29e-03, rmse_f = 5.64e-02, rmse_v = 1.99e-02, lr = 3.29e-08
+[2026-02-09 10:50:42,948] DEEPMD INFO    batch 2690000: val: rmse = 6.03e-02, rmse_e = 2.17e-03, rmse_f = 4.31e-02, rmse_v = 1.73e-02
+[2026-02-09 10:50:42,948] DEEPMD INFO    batch 2690000: total wall time = 521.91 s
+[2026-02-09 10:59:24,413] DEEPMD INFO    batch 2700000: trn: rmse = 5.18e-02, rmse_e = 7.36e-04, rmse_f = 4.02e-02, rmse_v = 1.44e-02, lr = 3.16e-08
+[2026-02-09 10:59:24,413] DEEPMD INFO    batch 2700000: val: rmse = 6.36e-02, rmse_e = 2.65e-03, rmse_f = 4.29e-02, rmse_v = 1.90e-02
+[2026-02-09 10:59:24,413] DEEPMD INFO    batch 2700000: total wall time = 521.46 s
+[2026-02-09 10:59:24,867] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 11:08:04,873] DEEPMD INFO    batch 2710000: trn: rmse = 7.01e-02, rmse_e = 5.75e-04, rmse_f = 5.49e-02, rmse_v = 1.94e-02, lr = 3.04e-08
+[2026-02-09 11:08:04,874] DEEPMD INFO    batch 2710000: val: rmse = 6.18e-02, rmse_e = 1.37e-03, rmse_f = 4.58e-02, rmse_v = 1.74e-02
+[2026-02-09 11:08:04,874] DEEPMD INFO    batch 2710000: total wall time = 520.46 s
+[2026-02-09 11:16:44,715] DEEPMD INFO    batch 2720000: trn: rmse = 7.67e-02, rmse_e = 9.62e-04, rmse_f = 5.58e-02, rmse_v = 2.34e-02, lr = 2.93e-08
+[2026-02-09 11:16:44,715] DEEPMD INFO    batch 2720000: val: rmse = 6.30e-02, rmse_e = 2.03e-03, rmse_f = 4.41e-02, rmse_v = 1.84e-02
+[2026-02-09 11:16:44,716] DEEPMD INFO    batch 2720000: total wall time = 519.84 s
+[2026-02-09 11:25:25,137] DEEPMD INFO    batch 2730000: trn: rmse = 6.06e-02, rmse_e = 1.11e-03, rmse_f = 4.60e-02, rmse_v = 1.73e-02, lr = 2.82e-08
+[2026-02-09 11:25:25,138] DEEPMD INFO    batch 2730000: val: rmse = 5.72e-02, rmse_e = 1.34e-03, rmse_f = 4.13e-02, rmse_v = 1.70e-02
+[2026-02-09 11:25:25,138] DEEPMD INFO    batch 2730000: total wall time = 520.42 s
+[2026-02-09 11:34:06,059] DEEPMD INFO    batch 2740000: trn: rmse = 6.16e-02, rmse_e = 2.34e-03, rmse_f = 4.33e-02, rmse_v = 1.83e-02, lr = 2.71e-08
+[2026-02-09 11:34:06,060] DEEPMD INFO    batch 2740000: val: rmse = 6.20e-02, rmse_e = 1.52e-03, rmse_f = 4.65e-02, rmse_v = 1.73e-02
+[2026-02-09 11:34:06,060] DEEPMD INFO    batch 2740000: total wall time = 520.92 s
+[2026-02-09 11:42:46,563] DEEPMD INFO    batch 2750000: trn: rmse = 7.89e-02, rmse_e = 4.03e-03, rmse_f = 4.00e-02, rmse_v = 2.81e-02, lr = 2.61e-08
+[2026-02-09 11:42:46,563] DEEPMD INFO    batch 2750000: val: rmse = 6.50e-02, rmse_e = 2.72e-03, rmse_f = 4.66e-02, rmse_v = 1.80e-02
+[2026-02-09 11:42:46,564] DEEPMD INFO    batch 2750000: total wall time = 520.50 s
+[2026-02-09 11:51:25,648] DEEPMD INFO    batch 2760000: trn: rmse = 5.41e-02, rmse_e = 8.63e-04, rmse_f = 3.37e-02, rmse_v = 1.90e-02, lr = 2.51e-08
+[2026-02-09 11:51:25,648] DEEPMD INFO    batch 2760000: val: rmse = 6.22e-02, rmse_e = 2.28e-03, rmse_f = 4.51e-02, rmse_v = 1.74e-02
+[2026-02-09 11:51:25,648] DEEPMD INFO    batch 2760000: total wall time = 519.08 s
+[2026-02-09 12:00:06,566] DEEPMD INFO    batch 2770000: trn: rmse = 7.12e-02, rmse_e = 9.77e-04, rmse_f = 6.12e-02, rmse_v = 1.57e-02, lr = 2.42e-08
+[2026-02-09 12:00:06,567] DEEPMD INFO    batch 2770000: val: rmse = 6.74e-02, rmse_e = 3.08e-03, rmse_f = 4.35e-02, rmse_v = 2.08e-02
+[2026-02-09 12:00:06,567] DEEPMD INFO    batch 2770000: total wall time = 520.92 s
+[2026-02-09 12:08:47,292] DEEPMD INFO    batch 2780000: trn: rmse = 6.83e-02, rmse_e = 8.80e-04, rmse_f = 4.11e-02, rmse_v = 2.46e-02, lr = 2.33e-08
+[2026-02-09 12:08:47,293] DEEPMD INFO    batch 2780000: val: rmse = 6.29e-02, rmse_e = 2.72e-03, rmse_f = 4.73e-02, rmse_v = 1.61e-02
+[2026-02-09 12:08:47,293] DEEPMD INFO    batch 2780000: total wall time = 520.73 s
+[2026-02-09 12:17:26,442] DEEPMD INFO    batch 2790000: trn: rmse = 6.45e-02, rmse_e = 2.12e-03, rmse_f = 3.92e-02, rmse_v = 2.22e-02, lr = 2.24e-08
+[2026-02-09 12:17:26,443] DEEPMD INFO    batch 2790000: val: rmse = 6.51e-02, rmse_e = 2.69e-03, rmse_f = 4.64e-02, rmse_v = 1.79e-02
+[2026-02-09 12:17:26,443] DEEPMD INFO    batch 2790000: total wall time = 519.15 s
+[2026-02-09 12:26:05,971] DEEPMD INFO    batch 2800000: trn: rmse = 5.88e-02, rmse_e = 5.84e-04, rmse_f = 4.67e-02, rmse_v = 1.59e-02, lr = 2.15e-08
+[2026-02-09 12:26:05,972] DEEPMD INFO    batch 2800000: val: rmse = 6.66e-02, rmse_e = 2.51e-03, rmse_f = 4.40e-02, rmse_v = 2.12e-02
+[2026-02-09 12:26:05,972] DEEPMD INFO    batch 2800000: total wall time = 519.53 s
+[2026-02-09 12:26:06,572] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 12:34:46,480] DEEPMD INFO    batch 2810000: trn: rmse = 5.68e-02, rmse_e = 2.24e-03, rmse_f = 4.23e-02, rmse_v = 1.55e-02, lr = 2.07e-08
+[2026-02-09 12:34:46,480] DEEPMD INFO    batch 2810000: val: rmse = 6.26e-02, rmse_e = 2.37e-03, rmse_f = 4.34e-02, rmse_v = 1.82e-02
+[2026-02-09 12:34:46,480] DEEPMD INFO    batch 2810000: total wall time = 520.51 s
+[2026-02-09 12:43:26,803] DEEPMD INFO    batch 2820000: trn: rmse = 5.96e-02, rmse_e = 9.21e-04, rmse_f = 4.11e-02, rmse_v = 1.93e-02, lr = 2.00e-08
+[2026-02-09 12:43:26,804] DEEPMD INFO    batch 2820000: val: rmse = 6.77e-02, rmse_e = 1.66e-03, rmse_f = 4.89e-02, rmse_v = 2.00e-02
+[2026-02-09 12:43:26,804] DEEPMD INFO    batch 2820000: total wall time = 520.32 s
+[2026-02-09 12:52:06,132] DEEPMD INFO    batch 2830000: trn: rmse = 7.08e-02, rmse_e = 1.28e-03, rmse_f = 4.12e-02, rmse_v = 2.58e-02, lr = 1.92e-08
+[2026-02-09 12:52:06,134] DEEPMD INFO    batch 2830000: val: rmse = 6.05e-02, rmse_e = 1.92e-03, rmse_f = 4.36e-02, rmse_v = 1.75e-02
+[2026-02-09 12:52:06,134] DEEPMD INFO    batch 2830000: total wall time = 519.33 s
+[2026-02-09 13:00:44,493] DEEPMD INFO    batch 2840000: trn: rmse = 5.57e-02, rmse_e = 2.35e-03, rmse_f = 4.74e-02, rmse_v = 1.07e-02, lr = 1.85e-08
+[2026-02-09 13:00:44,494] DEEPMD INFO    batch 2840000: val: rmse = 6.25e-02, rmse_e = 1.79e-03, rmse_f = 4.54e-02, rmse_v = 1.79e-02
+[2026-02-09 13:00:44,494] DEEPMD INFO    batch 2840000: total wall time = 518.36 s
+[2026-02-09 13:09:25,954] DEEPMD INFO    batch 2850000: trn: rmse = 5.97e-02, rmse_e = 2.13e-03, rmse_f = 4.64e-02, rmse_v = 1.55e-02, lr = 1.78e-08
+[2026-02-09 13:09:25,956] DEEPMD INFO    batch 2850000: val: rmse = 6.75e-02, rmse_e = 2.33e-03, rmse_f = 4.55e-02, rmse_v = 2.10e-02
+[2026-02-09 13:09:25,956] DEEPMD INFO    batch 2850000: total wall time = 521.46 s
+[2026-02-09 13:18:06,406] DEEPMD INFO    batch 2860000: trn: rmse = 7.03e-02, rmse_e = 9.59e-04, rmse_f = 5.08e-02, rmse_v = 2.18e-02, lr = 1.71e-08
+[2026-02-09 13:18:06,406] DEEPMD INFO    batch 2860000: val: rmse = 6.76e-02, rmse_e = 1.99e-03, rmse_f = 4.87e-02, rmse_v = 1.96e-02
+[2026-02-09 13:18:06,406] DEEPMD INFO    batch 2860000: total wall time = 520.45 s
+[2026-02-09 13:26:47,204] DEEPMD INFO    batch 2870000: trn: rmse = 7.63e-02, rmse_e = 2.39e-03, rmse_f = 5.62e-02, rmse_v = 2.21e-02, lr = 1.65e-08
+[2026-02-09 13:26:47,205] DEEPMD INFO    batch 2870000: val: rmse = 7.05e-02, rmse_e = 3.05e-03, rmse_f = 5.00e-02, rmse_v = 1.94e-02
+[2026-02-09 13:26:47,205] DEEPMD INFO    batch 2870000: total wall time = 520.80 s
+[2026-02-09 13:35:27,781] DEEPMD INFO    batch 2880000: trn: rmse = 6.44e-02, rmse_e = 1.59e-03, rmse_f = 3.77e-02, rmse_v = 2.32e-02, lr = 1.58e-08
+[2026-02-09 13:35:27,781] DEEPMD INFO    batch 2880000: val: rmse = 6.11e-02, rmse_e = 2.43e-03, rmse_f = 4.31e-02, rmse_v = 1.64e-02
+[2026-02-09 13:35:27,782] DEEPMD INFO    batch 2880000: total wall time = 520.58 s
+[2026-02-09 13:44:09,600] DEEPMD INFO    batch 2890000: trn: rmse = 5.44e-02, rmse_e = 2.38e-03, rmse_f = 4.04e-02, rmse_v = 1.46e-02, lr = 1.53e-08
+[2026-02-09 13:44:09,601] DEEPMD INFO    batch 2890000: val: rmse = 6.03e-02, rmse_e = 2.04e-03, rmse_f = 4.42e-02, rmse_v = 1.65e-02
+[2026-02-09 13:44:09,601] DEEPMD INFO    batch 2890000: total wall time = 521.82 s
+[2026-02-09 13:52:51,003] DEEPMD INFO    batch 2900000: trn: rmse = 5.59e-02, rmse_e = 8.48e-04, rmse_f = 4.68e-02, rmse_v = 1.34e-02, lr = 1.47e-08
+[2026-02-09 13:52:51,004] DEEPMD INFO    batch 2900000: val: rmse = 6.59e-02, rmse_e = 1.58e-03, rmse_f = 4.84e-02, rmse_v = 1.85e-02
+[2026-02-09 13:52:51,004] DEEPMD INFO    batch 2900000: total wall time = 521.40 s
+[2026-02-09 13:52:51,438] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 14:01:31,961] DEEPMD INFO    batch 2910000: trn: rmse = 5.90e-02, rmse_e = 2.15e-03, rmse_f = 4.81e-02, rmse_v = 1.38e-02, lr = 1.41e-08
+[2026-02-09 14:01:31,962] DEEPMD INFO    batch 2910000: val: rmse = 7.34e-02, rmse_e = 2.23e-03, rmse_f = 4.87e-02, rmse_v = 2.32e-02
+[2026-02-09 14:01:31,962] DEEPMD INFO    batch 2910000: total wall time = 520.96 s
+[2026-02-09 14:10:12,708] DEEPMD INFO    batch 2920000: trn: rmse = 5.29e-02, rmse_e = 2.75e-03, rmse_f = 4.44e-02, rmse_v = 9.54e-03, lr = 1.36e-08
+[2026-02-09 14:10:12,709] DEEPMD INFO    batch 2920000: val: rmse = 6.61e-02, rmse_e = 2.48e-03, rmse_f = 4.11e-02, rmse_v = 2.15e-02
+[2026-02-09 14:10:12,710] DEEPMD INFO    batch 2920000: total wall time = 520.75 s
+[2026-02-09 14:18:53,567] DEEPMD INFO    batch 2930000: trn: rmse = 6.01e-02, rmse_e = 2.42e-03, rmse_f = 4.15e-02, rmse_v = 1.82e-02, lr = 1.31e-08
+[2026-02-09 14:18:53,568] DEEPMD INFO    batch 2930000: val: rmse = 6.49e-02, rmse_e = 2.44e-03, rmse_f = 4.68e-02, rmse_v = 1.82e-02
+[2026-02-09 14:18:53,568] DEEPMD INFO    batch 2930000: total wall time = 520.86 s
+[2026-02-09 14:27:34,304] DEEPMD INFO    batch 2940000: trn: rmse = 6.76e-02, rmse_e = 1.07e-03, rmse_f = 5.38e-02, rmse_v = 1.81e-02, lr = 1.26e-08
+[2026-02-09 14:27:34,305] DEEPMD INFO    batch 2940000: val: rmse = 5.83e-02, rmse_e = 1.34e-03, rmse_f = 3.92e-02, rmse_v = 1.87e-02
+[2026-02-09 14:27:34,306] DEEPMD INFO    batch 2940000: total wall time = 520.74 s
+[2026-02-09 14:36:14,435] DEEPMD INFO    batch 2950000: trn: rmse = 6.09e-02, rmse_e = 3.73e-03, rmse_f = 4.34e-02, rmse_v = 1.54e-02, lr = 1.21e-08
+[2026-02-09 14:36:14,436] DEEPMD INFO    batch 2950000: val: rmse = 6.39e-02, rmse_e = 1.81e-03, rmse_f = 4.68e-02, rmse_v = 1.84e-02
+[2026-02-09 14:36:14,436] DEEPMD INFO    batch 2950000: total wall time = 520.13 s
+[2026-02-09 14:44:55,043] DEEPMD INFO    batch 2960000: trn: rmse = 6.32e-02, rmse_e = 3.30e-03, rmse_f = 4.25e-02, rmse_v = 1.85e-02, lr = 1.17e-08
+[2026-02-09 14:44:55,043] DEEPMD INFO    batch 2960000: val: rmse = 6.62e-02, rmse_e = 2.03e-03, rmse_f = 4.28e-02, rmse_v = 2.16e-02
+[2026-02-09 14:44:55,043] DEEPMD INFO    batch 2960000: total wall time = 520.61 s
+[2026-02-09 14:53:37,595] DEEPMD INFO    batch 2970000: trn: rmse = 5.00e-02, rmse_e = 2.06e-03, rmse_f = 3.92e-02, rmse_v = 1.25e-02, lr = 1.12e-08
+[2026-02-09 14:53:37,595] DEEPMD INFO    batch 2970000: val: rmse = 6.28e-02, rmse_e = 2.54e-03, rmse_f = 4.32e-02, rmse_v = 1.82e-02
+[2026-02-09 14:53:37,595] DEEPMD INFO    batch 2970000: total wall time = 522.55 s
+[2026-02-09 15:02:19,122] DEEPMD INFO    batch 2980000: trn: rmse = 6.20e-02, rmse_e = 2.05e-03, rmse_f = 3.58e-02, rmse_v = 2.21e-02, lr = 1.08e-08
+[2026-02-09 15:02:19,122] DEEPMD INFO    batch 2980000: val: rmse = 7.22e-02, rmse_e = 2.81e-03, rmse_f = 5.14e-02, rmse_v = 2.04e-02
+[2026-02-09 15:02:19,123] DEEPMD INFO    batch 2980000: total wall time = 521.53 s
+[2026-02-09 15:10:59,078] DEEPMD INFO    batch 2990000: trn: rmse = 7.48e-02, rmse_e = 1.49e-03, rmse_f = 5.16e-02, rmse_v = 2.42e-02, lr = 1.04e-08
+[2026-02-09 15:10:59,079] DEEPMD INFO    batch 2990000: val: rmse = 6.19e-02, rmse_e = 2.98e-03, rmse_f = 4.56e-02, rmse_v = 1.54e-02
+[2026-02-09 15:10:59,079] DEEPMD INFO    batch 2990000: total wall time = 519.96 s
+[2026-02-09 15:19:38,176] DEEPMD INFO    batch 3000000: trn: rmse = 6.78e-02, rmse_e = 3.27e-03, rmse_f = 4.89e-02, rmse_v = 1.86e-02, lr = 1.00e-08
+[2026-02-09 15:19:38,176] DEEPMD INFO    batch 3000000: val: rmse = 6.27e-02, rmse_e = 3.78e-03, rmse_f = 4.48e-02, rmse_v = 1.52e-02
+[2026-02-09 15:19:38,177] DEEPMD INFO    batch 3000000: total wall time = 519.10 s
+[2026-02-09 15:19:38,714] DEEPMD INFO    saved checkpoint model.ckpt
+[2026-02-09 15:19:38,715] DEEPMD INFO    average training time: 0.0514 s/batch (exclude first 10000 batches)
+[2026-02-09 15:19:38,715] DEEPMD INFO    finished training
+[2026-02-09 15:19:38,715] DEEPMD INFO    wall time: 156292.412 s

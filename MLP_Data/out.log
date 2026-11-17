@@ -1,0 +1,29 @@
+
+Sender: Unischeduler System <zhsong@mgt01>
+Subject: Job 407287: </public/home/zhsong/.jhjobs/1770464929.407287.1.shell> Done
+
+Job </public/home/zhsong/.jhjobs/1770464929.407287.1.shell> was submitted from host <mgt01> by user <zhsong>.
+Job was executed on host(s) <64*gpund01>, in queue <gpu>, as user <zhsong>.
+</public/home/zhsong> was used as the home directory.
+</public/home/zhsong/New-direction/Solid-electrolyte/Trigon_LiTaCl6/LiTaCl6/DeepMD> was used as the working directory.
+Started at 2026-02-07 19:48:49
+Results reported at 2026-02-09 15:19:43
+
+Your job looked like:
+
+------------------------------------------------------------
+# User input
+/public/home/zhsong/.jhjobs/1770464929.407287.1.shell
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      2353717.01 sec.
+    Max Memory :              1922 MB
+    Max Processes  :               4
+
+
+The output (if any) follows:
+
